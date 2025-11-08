@@ -5,6 +5,16 @@
 Company career pages follow the format:
 https://join.com/companies/<company-slug>
 
+🔍 Example Companies (Researched Manually)
+
+The following companies were independently identified through web searches and verified as Join.com ATS users:
+
+https://join.com/companies/enterprisebot
+https://join.com/companies/qdrant
+https://join.com/companies/sphaira-medical
+https://join.com/companies/hivekra1
+
+These were found using targeted Google search queries and confirmed by inspecting their HTML structure and job posting format.
 
 **Example used:**
 - Qdrant — https://join.com/companies/qdrant
