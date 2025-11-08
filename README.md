@@ -46,17 +46,10 @@ Change with:
 set SCHEDULER_TIME=10:00
 
 
-✅ That’s the “setup steps” section done.
-
 ---
 
 ## 🧩 3️⃣ **API Mapping Summary (for each ATS)**
-> “API mapping summary for each ATS” → they want a quick table showing how you found / used endpoints.
 
-✅ You already have this table in the README (`ATS API Mapping Summary`).  
-Make sure it’s clear and complete:
-
-```markdown
 ## 🧩 ATS API Mapping Summary
 
 | ATS | Type | API/Pattern | Example |
