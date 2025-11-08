@@ -27,7 +27,7 @@ This modular design allows easy extension by adding new ATS adapters without aff
 
 ### 1️⃣ Clone & Install
 ```bash
-git clone <repo>
+git clone <https://github.com/sayu320/ats_scraper.git>
 cd ats-scraper
 pip install -r requirements.txt
 
