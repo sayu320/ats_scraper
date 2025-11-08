@@ -1,0 +1,778 @@
+[
+  {
+    "external_id": "107339",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Senior Staff Backend Engineer",
+    "department": "Staffing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-10-27T14:20:04.963Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/107339",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong>Role: Senior Staff Backend Engineer</strong></div><div><strong>Experience: 8 - 10 years</strong></div><div><strong>Location: Chennai</strong></div><div><br></div><div><strong>Position summary:</strong></div><div>We are searching for a highly experienced, talented and motivated Staff Back-end Software Engineer to join our growing Guest Experience Solutions development team. The ideal candidate will have over 10 years of experience in Java-based software development (back-end) and more than 3 years as lead developer with exposure to UI technologies. In this role, you will play a key role in designing, building, and maintaining product, following SDLC process, guiding &amp; leading team of developers and delivering high-quality releases following scrum methodologies. You will work closely with product managers, developers, QA analysts and other engineers to ensure the product and the features being released meet the needs of the business.</div><div><strong>What you will do:</strong></div><div>●\tDesign, develop, and implement scalable SAAS applications using Java - J2SE, JAX JAX-WS, JPA and other Java application stack tools.</div><div>●\tDrive product development from concept to launch, delivering high-quality software solutions.</div><div>●\tEnsure the scalability, performance, and reliability of the product by implementing and managing Agile methodologies.</div><div>●\tLead and mentor teams of developers and QA automation engineers, fostering a collaborative and productive work environment.</div><div>●\tDesign and manage new &amp; existing database schema. Write and execute SQL queries to expose the data to the downstream components via APIs.</div><div>●\tDevelop and maintain Java based application which include Tomcat based Web applications, Spring-boot applications</div><div>●\tDesign and implement REST APIs for other downstream components.</div><div>●\tCollaborate with front-end developers to ensure seamless integration of UI components.</div><div>●\tMonitor, maintain and drive best coding practices to ensure code quality.</div><div>●\tParticipate in code reviews, testing, and debugging to ensure the code quality.</div><div>●\tParticipate in the entire Agile development lifecycle, including sprint planning, stand-ups, and retrospectives</div><div><br></div><div><strong>What you bring to the table: </strong></div><div><strong>Essentials:</strong></div><div>●\tExperience in designing, developing, and implementing Java/J2SE applications/products.</div><div>●\tProficiency in SQL and experience with relational databases (e.g., MySQL, Spanner).</div><div>●\tStrong programming skills in Java and strong knowledge in technologies like JAX-WS, JPA, Web Services, Rest API design.</div><div>●\tExtensive knowledge of modern technologies, best practices and agile methodologies.</div><div>●\tAbility to work independently and as part of a team.</div><div>●\tStrong knowledge of cloud computing platforms, such as AWS, Azure, or Google Cloud.</div><div>●\tStrong knowledge of Application scalability and performance, strong knowledge of horizontal and vertical scaling and use this knowledge to build scalable applications.</div><div>●\tStay up-to-date with the latest industry trends and technologies to continuously improve the development process</div><div><br></div><div>Nice To Have</div><div>●\tExperience with Google Cloud, BigQuery, CloudSQL, gGRPC, Kubernetes</div><div>●\tExperience with modern Web application design with knowledge of how website/ &amp; web applications work, Example: HTTP, HTML, Javascript, CSS, AJAX etc</div>",
+    "raw_payload": {
+      "id": 107339,
+      "title": "Senior Staff Backend Engineer",
+      "description": "<div><strong>Role: Senior Staff Backend Engineer</strong></div><div><strong>Experience: 8 - 10 years</strong></div><div><strong>Location: Chennai</strong></div><div><br></div><div><strong>Position summary:</strong></div><div>We are searching for a highly experienced, talented and motivated Staff Back-end Software Engineer to join our growing Guest Experience Solutions development team. The ideal candidate will have over 10 years of experience in Java-based software development (back-end) and more than 3 years as lead developer with exposure to UI technologies. In this role, you will play a key role in designing, building, and maintaining product, following SDLC process, guiding &amp; leading team of developers and delivering high-quality releases following scrum methodologies. You will work closely with product managers, developers, QA analysts and other engineers to ensure the product and the features being released meet the needs of the business.</div><div><strong>What you will do:</strong></div><div>●\tDesign, develop, and implement scalable SAAS applications using Java - J2SE, JAX JAX-WS, JPA and other Java application stack tools.</div><div>●\tDrive product development from concept to launch, delivering high-quality software solutions.</div><div>●\tEnsure the scalability, performance, and reliability of the product by implementing and managing Agile methodologies.</div><div>●\tLead and mentor teams of developers and QA automation engineers, fostering a collaborative and productive work environment.</div><div>●\tDesign and manage new &amp; existing database schema. Write and execute SQL queries to expose the data to the downstream components via APIs.</div><div>●\tDevelop and maintain Java based application which include Tomcat based Web applications, Spring-boot applications</div><div>●\tDesign and implement REST APIs for other downstream components.</div><div>●\tCollaborate with front-end developers to ensure seamless integration of UI components.</div><div>●\tMonitor, maintain and drive best coding practices to ensure code quality.</div><div>●\tParticipate in code reviews, testing, and debugging to ensure the code quality.</div><div>●\tParticipate in the entire Agile development lifecycle, including sprint planning, stand-ups, and retrospectives</div><div><br></div><div><strong>What you bring to the table: </strong></div><div><strong>Essentials:</strong></div><div>●\tExperience in designing, developing, and implementing Java/J2SE applications/products.</div><div>●\tProficiency in SQL and experience with relational databases (e.g., MySQL, Spanner).</div><div>●\tStrong programming skills in Java and strong knowledge in technologies like JAX-WS, JPA, Web Services, Rest API design.</div><div>●\tExtensive knowledge of modern technologies, best practices and agile methodologies.</div><div>●\tAbility to work independently and as part of a team.</div><div>●\tStrong knowledge of cloud computing platforms, such as AWS, Azure, or Google Cloud.</div><div>●\tStrong knowledge of Application scalability and performance, strong knowledge of horizontal and vertical scaling and use this knowledge to build scalable applications.</div><div>●\tStay up-to-date with the latest industry trends and technologies to continuously improve the development process</div><div><br></div><div>Nice To Have</div><div>●\tExperience with Google Cloud, BigQuery, CloudSQL, gGRPC, Kubernetes</div><div>●\tExperience with modern Web application design with knowledge of how website/ &amp; web applications work, Example: HTTP, HTML, Javascript, CSS, AJAX etc</div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "8 - 10 years",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-10-27T14:20:04.963Z",
+      "publishedSinceDays": 11
+    }
+  },
+  {
+    "external_id": "106860",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Java Backend Developer",
+    "department": "Staffing",
+    "location_text": "Chennai, Tamil Nadu, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-10-17T06:18:39.963Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/106860",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>Senior Java Backend Developer&nbsp;</div><div>Experience: 3 - 5 years&nbsp;</div><div>Location: Chennai</div><div><br></div><div>Job Overview&nbsp;</div><div>We are looking for a talented and experienced Sr. Java Backend Developer with&nbsp;</div><div>strong expertise in Java (Spring Boot) to join our development team. You will be&nbsp;</div><div>responsible for building robust and scalable web applications using microservices&nbsp;</div><div>architecture and modern frontend frameworks.</div><div>&nbsp;</div><div>Key Responsibilities&nbsp;</div><div>● Design, develop, and maintain scalable web applications using Java.&nbsp;</div><div>● Build RESTful APIs and microservices using Spring Boot (v3.4+).&nbsp;</div><div>● Collaborate with DevOps to deploy applications using Docker, Kubernetes,&nbsp;</div><div>and OpenShift.&nbsp;</div><div>● Integrate Oracle databases using JPA and manage schema changes.&nbsp;</div><div>● Work with version control systems like Git and use logging/monitoring tools&nbsp;</div><div>(ELK Stack).&nbsp;</div><div>● Implement unit testing (JUnit, Jasmine, Karma) and E2E testing (Cypress,&nbsp;</div><div>Protractor).&nbsp;</div><div>● Follow CI/CD practices and contribute to deployment automation.&nbsp;</div><div>● Collaborate with cross-functional teams in an Agile environment.&nbsp;</div><div><br></div><div>Required Skills&nbsp;</div><div>● 3+ years of experience in Java development (Java 8+).&nbsp;</div><div>● Strong hands-on experience with Spring Boot 3.4+.&nbsp;</div><div>● Deep knowledge of REST APIs, Microservices, and MFE architecture.&nbsp;</div><div>● Experience with Oracle databases and SQL.&nbsp;</div><div>● Familiarity with GitHub (or GitUp), ELK stack, CI/CD pipelines.&nbsp;</div><div>● Knowledge of Docker, Kubernetes, and OpenShift.&nbsp;</div><div>● Good problem-solving and debugging skills.&nbsp;</div>",
+    "raw_payload": {
+      "id": 106860,
+      "title": "Java Backend Developer",
+      "description": "<div>Senior Java Backend Developer&nbsp;</div><div>Experience: 3 - 5 years&nbsp;</div><div>Location: Chennai</div><div><br></div><div>Job Overview&nbsp;</div><div>We are looking for a talented and experienced Sr. Java Backend Developer with&nbsp;</div><div>strong expertise in Java (Spring Boot) to join our development team. You will be&nbsp;</div><div>responsible for building robust and scalable web applications using microservices&nbsp;</div><div>architecture and modern frontend frameworks.</div><div>&nbsp;</div><div>Key Responsibilities&nbsp;</div><div>● Design, develop, and maintain scalable web applications using Java.&nbsp;</div><div>● Build RESTful APIs and microservices using Spring Boot (v3.4+).&nbsp;</div><div>● Collaborate with DevOps to deploy applications using Docker, Kubernetes,&nbsp;</div><div>and OpenShift.&nbsp;</div><div>● Integrate Oracle databases using JPA and manage schema changes.&nbsp;</div><div>● Work with version control systems like Git and use logging/monitoring tools&nbsp;</div><div>(ELK Stack).&nbsp;</div><div>● Implement unit testing (JUnit, Jasmine, Karma) and E2E testing (Cypress,&nbsp;</div><div>Protractor).&nbsp;</div><div>● Follow CI/CD practices and contribute to deployment automation.&nbsp;</div><div>● Collaborate with cross-functional teams in an Agile environment.&nbsp;</div><div><br></div><div>Required Skills&nbsp;</div><div>● 3+ years of experience in Java development (Java 8+).&nbsp;</div><div>● Strong hands-on experience with Spring Boot 3.4+.&nbsp;</div><div>● Deep knowledge of REST APIs, Microservices, and MFE architecture.&nbsp;</div><div>● Experience with Oracle databases and SQL.&nbsp;</div><div>● Familiarity with GitHub (or GitUp), ELK stack, CI/CD pipelines.&nbsp;</div><div>● Knowledge of Docker, Kubernetes, and OpenShift.&nbsp;</div><div>● Good problem-solving and debugging skills.&nbsp;</div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "3 - 5",
+      "salaryRange": {
+        "minimum": 5.0,
+        "maximum": 10.0,
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "INR 5.00 - 10.00",
+      "publishedOn": "2025-10-17T06:18:39.963Z",
+      "publishedSinceDays": 21
+    }
+  },
+  {
+    "external_id": "99676",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Senior Dotnet Developer",
+    "department": "Staffing",
+    "location_text": "Bengaluru, Karnataka, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-09-03T13:35:07.823Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/99676",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong>Experience: </strong>7+ years of industry experience as a full-stack engineer (5 years will be considered but must be strong) </div><div><br></div><div><strong>Development Methodologies: </strong>.NET Core/.Net 6/.Net 8, REST APIs*, Microservices, experience on .NET* is mandatory, streaming platforms like Kafka is good to have as well. </div><div><br></div><div><strong>Test Automation: </strong>Proficient on writing Unit test cases/Integration test cases </div><div><br></div><div><strong>Frontend Technologies: </strong>HTML5, CSS and Javascript. Also strong in one of the JS frameworks - either React/NextJs* (Desired) or Angular</div><div><br></div><div><strong>Programming Languages: </strong>Expert in C# with sound knowledge of OOPS concepts and design patterns. </div><div><br></div><div><strong>CI/CD:</strong> Any Git tool for source control. Build tools like TeamCity or Jenkins or GitHub Action and experience with deployment tooling like Octopus or similar. </div><div><br></div><div><strong>Databases: </strong>Either of the relational databases like MSSQL / Oracle. Cloud: Any Cloud offering knowledge is a very strong asset. (Preferred AWS*) </div><div><br></div><div><strong>Monitoring: </strong>Familiarization with Splunk/Observe or a similar monitoring tool. Any familiarity with performance tooling like AppDynamics is good to have. </div><div><br></div><div><strong>Soft skills: </strong>Excellent communication skills. Working experience with Agile methodologies. </div><div><br></div><div><strong>Open Telemetry: </strong>Prometheus, Grafana React or Angular + Dotnet Core 6+ (Web API) + CICD ( TeamCity or Jenkins or GitHub Action) Experience + Database (MSSQL/ Oracle) + Cloud</div>",
+    "raw_payload": {
+      "id": 99676,
+      "title": "Senior Dotnet Developer",
+      "description": "<div><strong>Experience: </strong>7+ years of industry experience as a full-stack engineer (5 years will be considered but must be strong) </div><div><br></div><div><strong>Development Methodologies: </strong>.NET Core/.Net 6/.Net 8, REST APIs*, Microservices, experience on .NET* is mandatory, streaming platforms like Kafka is good to have as well. </div><div><br></div><div><strong>Test Automation: </strong>Proficient on writing Unit test cases/Integration test cases </div><div><br></div><div><strong>Frontend Technologies: </strong>HTML5, CSS and Javascript. Also strong in one of the JS frameworks - either React/NextJs* (Desired) or Angular</div><div><br></div><div><strong>Programming Languages: </strong>Expert in C# with sound knowledge of OOPS concepts and design patterns. </div><div><br></div><div><strong>CI/CD:</strong> Any Git tool for source control. Build tools like TeamCity or Jenkins or GitHub Action and experience with deployment tooling like Octopus or similar. </div><div><br></div><div><strong>Databases: </strong>Either of the relational databases like MSSQL / Oracle. Cloud: Any Cloud offering knowledge is a very strong asset. (Preferred AWS*) </div><div><br></div><div><strong>Monitoring: </strong>Familiarization with Splunk/Observe or a similar monitoring tool. Any familiarity with performance tooling like AppDynamics is good to have. </div><div><br></div><div><strong>Soft skills: </strong>Excellent communication skills. Working experience with Agile methodologies. </div><div><br></div><div><strong>Open Telemetry: </strong>Prometheus, Grafana React or Angular + Dotnet Core 6+ (Web API) + CICD ( TeamCity or Jenkins or GitHub Action) Experience + Database (MSSQL/ Oracle) + Cloud</div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "7+ Yrs",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-09-03T13:35:07.823Z",
+      "publishedSinceDays": 65
+    }
+  },
+  {
+    "external_id": "99517",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Technical Support Engineer",
+    "department": "Staffing",
+    "location_text": "Hyderabad, Telangana, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-09-02T11:32:41.793Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/99517",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>Skill: TSE - ATOM</div><div><br></div><div>Yrs: 2+ Yrs</div><div><br></div><div>Work Location: Hyderabad – Work from Office (5 days a week) / Shift Timing: 8:00 AM to 5:00 PM / 1:00 PM to 10:00 PM</div><div><br></div><div><br></div><div>Job Description: ATOM -TSE What you get to do in this role: In this role, the support engineer will resolve technical cases created by customers looking for help to understand or troubleshoot unexpected behaviours or to answer technical questions about the Client’s software and platform. A successful candidate will be committed to providing amazing customer support experiences, using skills that include building trust, showing empathy, and excellent communication to answer customer questions and resolve issues through various technologies including web, chat, email, case updates, as well as direct telephone support. Understanding the client’s platform and all core functionalities will be essential while employing various diagnostic tools to isolate the potential cause of the issue. The engineer is expected to diligently manage and resolve challenging issues assigned to them but may need to coordinate assistance from additional teams for more complex cases. As such, creative problem-solving, a collaborative nature, and flexibility will be key to your success. Lastly, support engineers also play a key role in providing input across business units regarding process and product improvements due to their unique perspective when working on technical issues for customers. </div><div><br></div><div>Qualifications &amp; Experience </div><div>● Must have a bachelor’s degree in computer science or a related field (or equivalent degree and experience) </div><div>● 2+ years providing customer-facing technical support (ITOM applications) </div><div>● Good Communication Skills In order to be successful in this role, we need someone who has: </div><div>● Ability to comprehend, modify server-side object-oriented JavaScript, Unix Shell scripting and Windows scripting and Powershell. </div><div>● Ability in server administration across OS platforms (Windows/Unix). Including understanding of user permission levels, domain configuration, group policy objects and execution of SUDO Policies. </div><div>● Understanding of protocols such as HTTP, TCP, FTP/SFTP, SOAP and REST, Experience with troubleshooting tools such as Wireshark, Traceroute. ● Strong troubleshooting/root cause isolation skills </div><div>● Demonstrated creative problem-solving approach and strong analytical skills </div><div>● Must be proficient with analyzing log files and standard debugging concepts. </div><div>● Familiarity with tools &amp; practices of the trade such as incident management, knowledge base, defect &amp; escalation management. </div><div>● Excellent communication skills (verbal and written). </div><div><br></div><div>● Preferred: </div><div>● Solid understanding of object-oriented programming skills A fundamental understanding of ITOM, CMDB and ITIL business process </div><div>● Experience providing web development support is highly desirable. (Java strongly preferred) </div><div>● Previous experience working with the ServiceNow platform (Asset Management, Orchestration, Discovery, Mid Server, BSM Map &amp; Service Mapping) </div><div>● Understanding of JavaScript or any other scripting language with logical approach for given problem statement.</div><div>● Previous experience in software development(or) software consulting. </div><div>● Experience supporting and troubleshooting infrastructure level issues.</div>",
+    "raw_payload": {
+      "id": 99517,
+      "title": "Technical Support Engineer",
+      "description": "<div>Skill: TSE - ATOM</div><div><br></div><div>Yrs: 2+ Yrs</div><div><br></div><div>Work Location: Hyderabad – Work from Office (5 days a week) / Shift Timing: 8:00 AM to 5:00 PM / 1:00 PM to 10:00 PM</div><div><br></div><div><br></div><div>Job Description: ATOM -TSE What you get to do in this role: In this role, the support engineer will resolve technical cases created by customers looking for help to understand or troubleshoot unexpected behaviours or to answer technical questions about the Client’s software and platform. A successful candidate will be committed to providing amazing customer support experiences, using skills that include building trust, showing empathy, and excellent communication to answer customer questions and resolve issues through various technologies including web, chat, email, case updates, as well as direct telephone support. Understanding the client’s platform and all core functionalities will be essential while employing various diagnostic tools to isolate the potential cause of the issue. The engineer is expected to diligently manage and resolve challenging issues assigned to them but may need to coordinate assistance from additional teams for more complex cases. As such, creative problem-solving, a collaborative nature, and flexibility will be key to your success. Lastly, support engineers also play a key role in providing input across business units regarding process and product improvements due to their unique perspective when working on technical issues for customers. </div><div><br></div><div>Qualifications &amp; Experience </div><div>● Must have a bachelor’s degree in computer science or a related field (or equivalent degree and experience) </div><div>● 2+ years providing customer-facing technical support (ITOM applications) </div><div>● Good Communication Skills In order to be successful in this role, we need someone who has: </div><div>● Ability to comprehend, modify server-side object-oriented JavaScript, Unix Shell scripting and Windows scripting and Powershell. </div><div>● Ability in server administration across OS platforms (Windows/Unix). Including understanding of user permission levels, domain configuration, group policy objects and execution of SUDO Policies. </div><div>● Understanding of protocols such as HTTP, TCP, FTP/SFTP, SOAP and REST, Experience with troubleshooting tools such as Wireshark, Traceroute. ● Strong troubleshooting/root cause isolation skills </div><div>● Demonstrated creative problem-solving approach and strong analytical skills </div><div>● Must be proficient with analyzing log files and standard debugging concepts. </div><div>● Familiarity with tools &amp; practices of the trade such as incident management, knowledge base, defect &amp; escalation management. </div><div>● Excellent communication skills (verbal and written). </div><div><br></div><div>● Preferred: </div><div>● Solid understanding of object-oriented programming skills A fundamental understanding of ITOM, CMDB and ITIL business process </div><div>● Experience providing web development support is highly desirable. (Java strongly preferred) </div><div>● Previous experience working with the ServiceNow platform (Asset Management, Orchestration, Discovery, Mid Server, BSM Map &amp; Service Mapping) </div><div>● Understanding of JavaScript or any other scripting language with logical approach for given problem statement.</div><div>● Previous experience in software development(or) software consulting. </div><div>● Experience supporting and troubleshooting infrastructure level issues.</div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "2-5",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-09-02T11:32:41.793Z",
+      "publishedSinceDays": 66
+    }
+  },
+  {
+    "external_id": "95515",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Demand Generation Specialist",
+    "department": "Marketing",
+    "location_text": null,
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-08-05T05:17:28.313Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/95515",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong>Position:&nbsp;</strong>&nbsp;<strong>Demand Generation Specialist</strong></div><div><strong>Employment Type: Full-Time</strong></div><div><strong>&nbsp;</strong></div><div><strong>About Us</strong></div><div>10decoders is a technology-first company delivering cutting-edge AI-powered automation, enterprise software, and digital transformation services to clients across industries. We are looking for an experienced and creative&nbsp;<strong>Demand Generation Specialist&nbsp;</strong>to take ownership of our marketing function, build a strong brand presence, and drive a qualified pipeline through strategic initiatives across digital, content, and performance marketing.</div><div>&nbsp;</div><div><strong>Key Responsibilities</strong></div><div>&nbsp;</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Marketing Strategy &amp; Planning</strong>: Define and execute a full-funnel marketing strategy aligned with business growth objectives across B2B segments</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Brand Positioning</strong>: Develop and maintain strong brand messaging, ensuring consistency across all channels including web, social, sales assets, and PR.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Campaign Management</strong>: Plan, execute, and optimize digital and offline campaigns to drive awareness, engagement, and conversions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Content &amp; Messaging</strong>: Oversee the creation of high-quality content&nbsp;blogs, whitepapers, case studies, videos aligned with thought leadership and SEO goals.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Lead Generation &amp; Nurturing</strong>: Build a predictable pipeline through demand generation activities (email, social, paid ads), lead nurturing workflows, and marketing automation.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Performance Marketing</strong>: Own paid marketing budgets and ROI metrics across platforms (LinkedIn Ads, Google Ads, etc.).</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Team Leadership</strong>: Build and lead a small but agile team of marketers (internal and external), including content creators, designers, and digital marketers.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Cross-functional Collaboration</strong>: Work closely with product, sales, and leadership to ensure alignment of GTM initiatives, messaging, and campaign impact.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Analytics &amp; Optimization</strong>: Track KPIs, report marketing performance, and apply insights to continuously improve results (MQLs, CAC, LTV, engagement rates).</div><div>&nbsp;</div><div><strong>Required Skills &amp; Qualifications</strong></div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor's degree required; MBA or postgraduate in Marketing or related field preferred.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6–10 years of experience in B2B marketing; experience in SaaS, enterprise technology, or AI domains preferred.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proven expertise in end-to-end campaign execution, digital marketing, SEO/SEM, and content strategy.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with tools like HubSpot, Google Analytics, LinkedIn Ads, SEO tools (Ahrefs/SEMRush), and WordPress/marketing automation platforms.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excellent communication, storytelling, and stakeholder management skills.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong analytical mindset and ability to make data-driven decisions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience managing internal teams and external agencies/freelancers.</div><div><br></div><div><br></div><div><strong>What We Offer</strong></div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strategic leadership role with visibility and influence across the organization.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opportunity to shape and scale a high-impact marketing engine.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to cutting-edge technologies and AI-based solutions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Performance-linked rewards and growth pathways.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A fast-paced, innovation-driven culture with room to experiment and grow.</div><div><br></div>",
+    "raw_payload": {
+      "id": 95515,
+      "title": "Demand Generation Specialist",
+      "description": "<div><strong>Position:&nbsp;</strong>&nbsp;<strong>Demand Generation Specialist</strong></div><div><strong>Employment Type: Full-Time</strong></div><div><strong>&nbsp;</strong></div><div><strong>About Us</strong></div><div>10decoders is a technology-first company delivering cutting-edge AI-powered automation, enterprise software, and digital transformation services to clients across industries. We are looking for an experienced and creative&nbsp;<strong>Demand Generation Specialist&nbsp;</strong>to take ownership of our marketing function, build a strong brand presence, and drive a qualified pipeline through strategic initiatives across digital, content, and performance marketing.</div><div>&nbsp;</div><div><strong>Key Responsibilities</strong></div><div>&nbsp;</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Marketing Strategy &amp; Planning</strong>: Define and execute a full-funnel marketing strategy aligned with business growth objectives across B2B segments</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Brand Positioning</strong>: Develop and maintain strong brand messaging, ensuring consistency across all channels including web, social, sales assets, and PR.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Campaign Management</strong>: Plan, execute, and optimize digital and offline campaigns to drive awareness, engagement, and conversions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Content &amp; Messaging</strong>: Oversee the creation of high-quality content&nbsp;blogs, whitepapers, case studies, videos aligned with thought leadership and SEO goals.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Lead Generation &amp; Nurturing</strong>: Build a predictable pipeline through demand generation activities (email, social, paid ads), lead nurturing workflows, and marketing automation.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Performance Marketing</strong>: Own paid marketing budgets and ROI metrics across platforms (LinkedIn Ads, Google Ads, etc.).</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Team Leadership</strong>: Build and lead a small but agile team of marketers (internal and external), including content creators, designers, and digital marketers.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Cross-functional Collaboration</strong>: Work closely with product, sales, and leadership to ensure alignment of GTM initiatives, messaging, and campaign impact.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Analytics &amp; Optimization</strong>: Track KPIs, report marketing performance, and apply insights to continuously improve results (MQLs, CAC, LTV, engagement rates).</div><div>&nbsp;</div><div><strong>Required Skills &amp; Qualifications</strong></div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor's degree required; MBA or postgraduate in Marketing or related field preferred.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6–10 years of experience in B2B marketing; experience in SaaS, enterprise technology, or AI domains preferred.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proven expertise in end-to-end campaign execution, digital marketing, SEO/SEM, and content strategy.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with tools like HubSpot, Google Analytics, LinkedIn Ads, SEO tools (Ahrefs/SEMRush), and WordPress/marketing automation platforms.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excellent communication, storytelling, and stakeholder management skills.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong analytical mindset and ability to make data-driven decisions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience managing internal teams and external agencies/freelancers.</div><div><br></div><div><br></div><div><strong>What We Offer</strong></div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strategic leadership role with visibility and influence across the organization.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opportunity to shape and scale a high-impact marketing engine.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to cutting-edge technologies and AI-based solutions.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Performance-linked rewards and growth pathways.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A fast-paced, innovation-driven culture with room to experiment and grow.</div><div><br></div>",
+      "departmentId": 79416,
+      "departmentName": "Marketing",
+      "jobLocations": [],
+      "jobType": 2,
+      "experience": "5-10",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-08-05T05:17:28.313Z",
+      "publishedSinceDays": 94
+    }
+  },
+  {
+    "external_id": "92259",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "GCP Data Engineer",
+    "department": "Staffing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-07-29T05:21:17.817Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/92259",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong style=\"color: rgb(0, 0, 0);\">Role: GCP Data Engineer (Mid Level)</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Yrs of Experience : 5 - 7 yrs</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Location : Chennai</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Position Overview:</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">We are seeking a mid-level GCP Data Engineer with 4+ years of experience in ETL, Data Warehousing, and Data Engineering. The ideal candidate will have hands-on experience with GCP tools, solid data analysis skills, and a strong understanding of Data Warehousing principles.</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Qualifications:</strong></div><ul><li>&nbsp;4+ years of experience in ETL &amp; Data Warehousing</li><li>&nbsp;Should have excellent leadership &amp; communication skills</li><li>&nbsp;Should have experience in developing Data Engineering solutions Airflow, GCP BigQuery, Cloud Storage, Dataflow, Cloud Functions, Pub/Sub, Cloud Run, etc.</li><li>&nbsp;Should have built solution automations in any of the above ETL tools</li><li>&nbsp;Should have executed at least 2 GCP Cloud Data Warehousing projects</li><li>&nbsp;Should have worked at least 2 projects using Agile/SAFe methodology</li><li>&nbsp;Should Have mid level experience in Pyspark and Teradata</li><li>&nbsp;Should Have mid level experience in</li><li>&nbsp;Should have working experience on any DevOps tools like GitHub, Jenkins, Cloud Native, etc &amp; on semi-structured data formats like JSON, Parquet and/or XML files &amp; written complex SQL queries for data analysis and extraction</li><li>&nbsp;Should have in depth understanding on Data Warehousing, Data Analysis, Data Profiling, Data Quality &amp; Data Mapping</li></ul><div><strong style=\"color: rgb(0, 0, 0);\">&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Education:</strong>&nbsp;B.Tech. /B.E. in Computer Science or related field.</div><ul><li><strong style=\"color: rgb(0, 0, 0);\">Certifications:</strong>&nbsp;Google Cloud Professional Data Engineer Certification.</li></ul><div><br></div><div><strong>Roles &amp; Responsibilities</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Responsibilities:</strong></div><ul><li>Analyze the different source systems, profile data, understand, document &amp; fix Data Quality issues</li><li>Gather requirements and business process knowledge in order to transform the data in a way that is geared towards the needs of end users</li><li>Write complex SQLs to extract &amp; format source data for ETL/data pipeline</li><li>Create design documents, Source to Target Mapping documents and any supporting documents needed for deployment/migration</li><li>Design, Develop and Test ETL/Data pipelines</li><li>Design &amp; build metadata-based frameworks needs for data pipelines</li><li>Write Unit Test cases, execute Unit Testing and document Unit Test results</li><li>Deploy ETL/Data pipelines</li><li>Use DevOps tools to version, push/pull code and deploy across environments</li><li>Support team during troubleshooting &amp; debugging defects &amp; bug fixes, business requests, environment migrations &amp; other adhoc requests</li><li>Do production support, enhancements and bug fixes</li><li>Work with business and technology stakeholders to communicate EDW incidents/problems and manage their expectations</li><li>Leverage ITIL concepts to circumvent incidents, manage problems and document knowledge</li><li>Perform data cleaning, transformation, and validation to ensure accuracy and consistency across various data sources</li><li>Stay current on industry best practices and emerging technologies in data analysis and cloud computing, particularly within the GCP ecosystem</li></ul><div><br></div><div><br></div><div><br></div>",
+    "raw_payload": {
+      "id": 92259,
+      "title": "GCP Data Engineer",
+      "description": "<div><strong style=\"color: rgb(0, 0, 0);\">Role: GCP Data Engineer (Mid Level)</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Yrs of Experience : 5 - 7 yrs</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Location : Chennai</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Position Overview:</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">We are seeking a mid-level GCP Data Engineer with 4+ years of experience in ETL, Data Warehousing, and Data Engineering. The ideal candidate will have hands-on experience with GCP tools, solid data analysis skills, and a strong understanding of Data Warehousing principles.</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Qualifications:</strong></div><ul><li>&nbsp;4+ years of experience in ETL &amp; Data Warehousing</li><li>&nbsp;Should have excellent leadership &amp; communication skills</li><li>&nbsp;Should have experience in developing Data Engineering solutions Airflow, GCP BigQuery, Cloud Storage, Dataflow, Cloud Functions, Pub/Sub, Cloud Run, etc.</li><li>&nbsp;Should have built solution automations in any of the above ETL tools</li><li>&nbsp;Should have executed at least 2 GCP Cloud Data Warehousing projects</li><li>&nbsp;Should have worked at least 2 projects using Agile/SAFe methodology</li><li>&nbsp;Should Have mid level experience in Pyspark and Teradata</li><li>&nbsp;Should Have mid level experience in</li><li>&nbsp;Should have working experience on any DevOps tools like GitHub, Jenkins, Cloud Native, etc &amp; on semi-structured data formats like JSON, Parquet and/or XML files &amp; written complex SQL queries for data analysis and extraction</li><li>&nbsp;Should have in depth understanding on Data Warehousing, Data Analysis, Data Profiling, Data Quality &amp; Data Mapping</li></ul><div><strong style=\"color: rgb(0, 0, 0);\">&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Education:</strong>&nbsp;B.Tech. /B.E. in Computer Science or related field.</div><ul><li><strong style=\"color: rgb(0, 0, 0);\">Certifications:</strong>&nbsp;Google Cloud Professional Data Engineer Certification.</li></ul><div><br></div><div><strong>Roles &amp; Responsibilities</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Responsibilities:</strong></div><ul><li>Analyze the different source systems, profile data, understand, document &amp; fix Data Quality issues</li><li>Gather requirements and business process knowledge in order to transform the data in a way that is geared towards the needs of end users</li><li>Write complex SQLs to extract &amp; format source data for ETL/data pipeline</li><li>Create design documents, Source to Target Mapping documents and any supporting documents needed for deployment/migration</li><li>Design, Develop and Test ETL/Data pipelines</li><li>Design &amp; build metadata-based frameworks needs for data pipelines</li><li>Write Unit Test cases, execute Unit Testing and document Unit Test results</li><li>Deploy ETL/Data pipelines</li><li>Use DevOps tools to version, push/pull code and deploy across environments</li><li>Support team during troubleshooting &amp; debugging defects &amp; bug fixes, business requests, environment migrations &amp; other adhoc requests</li><li>Do production support, enhancements and bug fixes</li><li>Work with business and technology stakeholders to communicate EDW incidents/problems and manage their expectations</li><li>Leverage ITIL concepts to circumvent incidents, manage problems and document knowledge</li><li>Perform data cleaning, transformation, and validation to ensure accuracy and consistency across various data sources</li><li>Stay current on industry best practices and emerging technologies in data analysis and cloud computing, particularly within the GCP ecosystem</li></ul><div><br></div><div><br></div><div><br></div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "5-7 years",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-07-29T05:21:17.817Z",
+      "publishedSinceDays": 101
+    }
+  },
+  {
+    "external_id": "79072",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Dotnet Fullstack",
+    "department": "Key Account Management",
+    "location_text": "Chennai, Tamil Nadu, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-03-05T13:53:23.677Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/79072",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>As a Senior Software Engineer, the main objective of this position is to deliver high quality</div><div>software on his/her own and/or together with the team (including design, code, tests,</div><div>document) and to accelerate the delivery. Job description:</div><div>Test drive and Implement complex features with quality in a timely manner</div><div>Peer review team’s code and suggest improvements</div><div>&nbsp;Should be able to efficiently refactor existing code to improve quality</div><div>&nbsp;Liaison with Architects to review and propose architectural design changes and ensure team</div><div>implements it with quality</div><div>Interact in a constructive manner with Business Analysts in order to:</div><div>Estimate the complexity and the workload;</div><div>Choose the most appropriate technical solution to meet the user requirements;</div><div>Reach the optimal requirement artifact that will lead to a working software solution.</div><div>Interact in a constructive manner with other IT teams.</div><div>Experience:</div><div>5-8 years of experience with developing end –to- end web applications using Microsoft stack</div><div>of Technologies.</div><div>Strong working knowledge of Web application development using .NET technologies</div><div>Strong working knowledge of SOLID principles and design patterns</div><div>Good understanding of UML, object-oriented programming (OOP) and Object Oriented</div><div>Design principles</div><div>Should have worked on at least one SOA (Service Oriented Architecture) project</div><div>Strong experience in designing and working with n-tier architectures</div><div>Uncompromising attitude towards quality</div><div>TDD, BDD, UML</div><div>Should have worked in an AGILE practice methodology (preferably SCRUM)</div><div>Able to provide technical recommendations and solve technical problems</div><div>Must be a quick learner</div><div><br></div><div>Technology skills:</div><div>Strong work experience of .NET, C#, MVC, WCF Rest and WebAPI, nUnit/MsUnit, EF</div><div>Strong working knowledge of Azure DevOps, HTML5 and CSS3, SASS technologies.</div><div>Working knowledge of MS SQL Databases, PowerShell, MongoDB</div><div>Working knowledge of Azure/AWS, MFE, Micro-services, ESB or Message Queuing</div><div>(MSMQ, RabbitMQ) is an added advantage.</div><div>Well versed with Unit testing frameworks</div><div>Familiarity with UI testing framework</div><div>Familiarity with WPF</div>",
+    "raw_payload": {
+      "id": 79072,
+      "title": "Dotnet Fullstack",
+      "description": "<div>As a Senior Software Engineer, the main objective of this position is to deliver high quality</div><div>software on his/her own and/or together with the team (including design, code, tests,</div><div>document) and to accelerate the delivery. Job description:</div><div>Test drive and Implement complex features with quality in a timely manner</div><div>Peer review team’s code and suggest improvements</div><div>&nbsp;Should be able to efficiently refactor existing code to improve quality</div><div>&nbsp;Liaison with Architects to review and propose architectural design changes and ensure team</div><div>implements it with quality</div><div>Interact in a constructive manner with Business Analysts in order to:</div><div>Estimate the complexity and the workload;</div><div>Choose the most appropriate technical solution to meet the user requirements;</div><div>Reach the optimal requirement artifact that will lead to a working software solution.</div><div>Interact in a constructive manner with other IT teams.</div><div>Experience:</div><div>5-8 years of experience with developing end –to- end web applications using Microsoft stack</div><div>of Technologies.</div><div>Strong working knowledge of Web application development using .NET technologies</div><div>Strong working knowledge of SOLID principles and design patterns</div><div>Good understanding of UML, object-oriented programming (OOP) and Object Oriented</div><div>Design principles</div><div>Should have worked on at least one SOA (Service Oriented Architecture) project</div><div>Strong experience in designing and working with n-tier architectures</div><div>Uncompromising attitude towards quality</div><div>TDD, BDD, UML</div><div>Should have worked in an AGILE practice methodology (preferably SCRUM)</div><div>Able to provide technical recommendations and solve technical problems</div><div>Must be a quick learner</div><div><br></div><div>Technology skills:</div><div>Strong work experience of .NET, C#, MVC, WCF Rest and WebAPI, nUnit/MsUnit, EF</div><div>Strong working knowledge of Azure DevOps, HTML5 and CSS3, SASS technologies.</div><div>Working knowledge of MS SQL Databases, PowerShell, MongoDB</div><div>Working knowledge of Azure/AWS, MFE, Micro-services, ESB or Message Queuing</div><div>(MSMQ, RabbitMQ) is an added advantage.</div><div>Well versed with Unit testing frameworks</div><div>Familiarity with UI testing framework</div><div>Familiarity with WPF</div>",
+      "departmentId": 82504,
+      "departmentName": "Key Account Management",
+      "jobLocations": [
+        {
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "4",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-03-05T13:53:23.677Z",
+      "publishedSinceDays": 247
+    }
+  },
+  {
+    "external_id": "77821",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Market Research Analyst",
+    "department": "Marketing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-07-28T10:04:00.74Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/77821",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong>Job Description: Market Research Analyst</strong></div><div><strong>Position: Market Research Analyst</strong></div><div><strong>Employment Type: Full-Time</strong></div><div><strong>&nbsp;</strong></div><div><strong>About Us</strong></div><div>10decoders is a technology-driven company focused on delivering innovative, AI-powered, and data-centric solutions to enterprises across sectors. We are seeking a detail-oriented and analytical Market Research Analyst to join our team. This role is designed for individuals passionate about understanding markets, decoding customer behavior, and providing actionable insights to drive strategic decisions.</div><div><br></div><div><strong>Key Responsibilities</strong></div><div>● Market Trend Analysis: Monitor and evaluate industry trends, emerging technologies,</div><div>and customer preferences to support strategic planning.</div><div>● Competitor Benchmarking: Analyze competitor performance, offerings, marketing</div><div>activities, and pricing strategies.</div><div>● Customer Insights: Conduct surveys, interviews, and secondary research to assess</div><div>customer behavior and expectations.</div><div>● Data Visualization &amp; Reporting: Translate raw data into clear visual reports and</div><div>dashboards using tools like Excel, Power BI, or similar platforms.</div><div>● Product &amp; Sales Strategy Support: Generate actionable insights that inform product</div><div>positioning, go-to-market plans, and sales strategy.</div><div>● Cross-functional Collaboration: Work with sales, product, and leadership teams to</div><div>align research outcomes with business objectives.</div><div><br></div><div><strong>Required Skills &amp; Qualifications</strong></div><div>● MBA or graduate degree in Marketing, Business Analytics, or a related field.</div><div>● Strong analytical skills with the ability to interpret data and trends effectively.</div><div>● Proficiency in Excel and familiarity with Power BI, Tableau, or other analytics platforms.</div><div>● Solid written and verbal communication skills to present insights clearly.</div><div>● Experience in the technology or industrial sector is a plus.</div><div>● Self-driven, curious, and detail-oriented mindset.</div><div><br></div><div><strong>What We Offer</strong></div><div>● Exposure to real-world market intelligence practices in a fast-paced tech environment.</div><div>● Hands-on experience with industry-standard research and analytics tools.</div><div>● Collaboration opportunities with product, sales, and strategy teams.</div><div>● A growth-oriented culture with mentorship and learning opportunities.</div><div><br></div>",
+    "raw_payload": {
+      "id": 77821,
+      "title": "Market Research Analyst",
+      "description": "<div><strong>Job Description: Market Research Analyst</strong></div><div><strong>Position: Market Research Analyst</strong></div><div><strong>Employment Type: Full-Time</strong></div><div><strong>&nbsp;</strong></div><div><strong>About Us</strong></div><div>10decoders is a technology-driven company focused on delivering innovative, AI-powered, and data-centric solutions to enterprises across sectors. We are seeking a detail-oriented and analytical Market Research Analyst to join our team. This role is designed for individuals passionate about understanding markets, decoding customer behavior, and providing actionable insights to drive strategic decisions.</div><div><br></div><div><strong>Key Responsibilities</strong></div><div>● Market Trend Analysis: Monitor and evaluate industry trends, emerging technologies,</div><div>and customer preferences to support strategic planning.</div><div>● Competitor Benchmarking: Analyze competitor performance, offerings, marketing</div><div>activities, and pricing strategies.</div><div>● Customer Insights: Conduct surveys, interviews, and secondary research to assess</div><div>customer behavior and expectations.</div><div>● Data Visualization &amp; Reporting: Translate raw data into clear visual reports and</div><div>dashboards using tools like Excel, Power BI, or similar platforms.</div><div>● Product &amp; Sales Strategy Support: Generate actionable insights that inform product</div><div>positioning, go-to-market plans, and sales strategy.</div><div>● Cross-functional Collaboration: Work with sales, product, and leadership teams to</div><div>align research outcomes with business objectives.</div><div><br></div><div><strong>Required Skills &amp; Qualifications</strong></div><div>● MBA or graduate degree in Marketing, Business Analytics, or a related field.</div><div>● Strong analytical skills with the ability to interpret data and trends effectively.</div><div>● Proficiency in Excel and familiarity with Power BI, Tableau, or other analytics platforms.</div><div>● Solid written and verbal communication skills to present insights clearly.</div><div>● Experience in the technology or industrial sector is a plus.</div><div>● Self-driven, curious, and detail-oriented mindset.</div><div><br></div><div><strong>What We Offer</strong></div><div>● Exposure to real-world market intelligence practices in a fast-paced tech environment.</div><div>● Hands-on experience with industry-standard research and analytics tools.</div><div>● Collaboration opportunities with product, sales, and strategy teams.</div><div>● A growth-oriented culture with mentorship and learning opportunities.</div><div><br></div>",
+      "departmentId": 79416,
+      "departmentName": "Marketing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "5 to 8",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-07-28T10:04:00.74Z",
+      "publishedSinceDays": 102
+    }
+  },
+  {
+    "external_id": "74712",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "ReactJS Developer - Java",
+    "department": "Staffing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-09-09T09:06:59.517Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/74712",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>Role: ReactJS Developer - Java</div><div>Experience: 7+ years </div><div>Location: Chennai </div><div>Notice period: Immediate </div><div><br></div><div>Your expertise: </div><div>• 7+ years of professional software engineering experience. </div><div>• Strong understanding of distributed systems and microservices architecture. </div><div>• Expertise in modern frameworks and cloud platforms, specifically AWS. </div><div>• Proven ability to lead and mentor teams. </div><div>• Knowledge of Ruby on Rails is plus </div><div>• Experience working with React.js is a must along with Java </div><div>• Proven ability to lead and mentor teams.&nbsp;</div>",
+    "raw_payload": {
+      "id": 74712,
+      "title": "ReactJS Developer - Java",
+      "description": "<div>Role: ReactJS Developer - Java</div><div>Experience: 7+ years </div><div>Location: Chennai </div><div>Notice period: Immediate </div><div><br></div><div>Your expertise: </div><div>• 7+ years of professional software engineering experience. </div><div>• Strong understanding of distributed systems and microservices architecture. </div><div>• Expertise in modern frameworks and cloud platforms, specifically AWS. </div><div>• Proven ability to lead and mentor teams. </div><div>• Knowledge of Ruby on Rails is plus </div><div>• Experience working with React.js is a must along with Java </div><div>• Proven ability to lead and mentor teams.&nbsp;</div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "7+",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-09-09T09:06:59.517Z",
+      "publishedSinceDays": 59
+    }
+  },
+  {
+    "external_id": "72026",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Business Development Manager / BM Lead",
+    "department": "Sales",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-08-07T08:18:14.617Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/72026",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Business Development Manager</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Role Overview:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">10Decoders&nbsp;is looking for a highly accomplished, high-performing sales professional to help us meet our customer acquisition and revenue growth targets by keeping our company competitive and innovative. You will be responsible for maximizing our sales potential, crafting sales plans, and executing them by meeting the revenue goals and targets.&nbsp;</span></div><div><br></div><ul><li><strong style=\"color: rgb(0, 0, 0);\">Experience of 6 to 15 years in selling professional services or staffing services in the US market.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Should have a proven track record of acquiring new customers for the staffing services. This will be end/direct customers and/or national staffing vendors and/or mid- to large systems integrators and/or large Indian SI’s.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Build strong business relationships with key accounts and continuously seek new opportunities to grow business within the territory</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Should have a successful track record of scaling the accounts acquired to achieve a sustained run rate business on or more than 5 M USD YoY or scale the head count to 50 plus within the first year and scale further by 50% YoY.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Act as a liaison between clients and recruiting delivery team and maintain positive customer relations</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Local market knowledge and strong network of contacts/accounts. • Strong leadership, interpersonal, communication, and presentation skills. Performance &amp; Personal Competencies Needed:</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Driving Results – Sets positive, compelling goals and aggressive schedules for improvement. Translates the vision/mission of the organization into actionable, quantitative plans. Conveys a sense of urgency and drives issues to closure.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Managing Performance – Translates over-arching business goals into specific objectives. Accountable for agreed-to results. Identifies and stays focused on the most important metrics that drive the business.&nbsp;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Building Commitment – Pursues common objectives with excitement about the future. Radiates enthusiasm for goals and infects others with a shared optimism and excitement. Conveys a genuine belief to succeed despite the toughest obstacles.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Building Relationships and Using Influence: Builds and sustains excellent relationships at all levels, both internally and externally. Uses relationship networks to strategically accomplish objectives. Communicates excitement about the business and motivates others to pursue common objectives.&nbsp;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Communication: communicates passion, energy, intensity, and excitement. Is highly articulate, makes arguments in a compelling matter, and comes to the point.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Energy/Endurance: Has a high capacity for work and shows passion, energy, endurance, and intensity. Maintains focus through days of long hours and multiple priorities. Essential Values – Follows and subscribes to all BCT’s team values—all employees and all of equal importance.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Open and honest—crystal clear, open, mature, &amp; professional conversations.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Challenging &amp; rewarding—courage, results count, investing in our future;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Friendly &amp; fun—work hard and have fun; generosity; balance.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">How I grow matters – personal &amp; professional development, self-direction</strong></li></ul><div><br></div>",
+    "raw_payload": {
+      "id": 72026,
+      "title": "Business Development Manager / BM Lead",
+      "description": "<div><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Business Development Manager</strong></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Role Overview:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">10Decoders&nbsp;is looking for a highly accomplished, high-performing sales professional to help us meet our customer acquisition and revenue growth targets by keeping our company competitive and innovative. You will be responsible for maximizing our sales potential, crafting sales plans, and executing them by meeting the revenue goals and targets.&nbsp;</span></div><div><br></div><ul><li><strong style=\"color: rgb(0, 0, 0);\">Experience of 6 to 15 years in selling professional services or staffing services in the US market.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Should have a proven track record of acquiring new customers for the staffing services. This will be end/direct customers and/or national staffing vendors and/or mid- to large systems integrators and/or large Indian SI’s.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Build strong business relationships with key accounts and continuously seek new opportunities to grow business within the territory</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Should have a successful track record of scaling the accounts acquired to achieve a sustained run rate business on or more than 5 M USD YoY or scale the head count to 50 plus within the first year and scale further by 50% YoY.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Act as a liaison between clients and recruiting delivery team and maintain positive customer relations</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Local market knowledge and strong network of contacts/accounts. • Strong leadership, interpersonal, communication, and presentation skills. Performance &amp; Personal Competencies Needed:</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Driving Results – Sets positive, compelling goals and aggressive schedules for improvement. Translates the vision/mission of the organization into actionable, quantitative plans. Conveys a sense of urgency and drives issues to closure.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Managing Performance – Translates over-arching business goals into specific objectives. Accountable for agreed-to results. Identifies and stays focused on the most important metrics that drive the business.&nbsp;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Building Commitment – Pursues common objectives with excitement about the future. Radiates enthusiasm for goals and infects others with a shared optimism and excitement. Conveys a genuine belief to succeed despite the toughest obstacles.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Building Relationships and Using Influence: Builds and sustains excellent relationships at all levels, both internally and externally. Uses relationship networks to strategically accomplish objectives. Communicates excitement about the business and motivates others to pursue common objectives.&nbsp;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Communication: communicates passion, energy, intensity, and excitement. Is highly articulate, makes arguments in a compelling matter, and comes to the point.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Energy/Endurance: Has a high capacity for work and shows passion, energy, endurance, and intensity. Maintains focus through days of long hours and multiple priorities. Essential Values – Follows and subscribes to all BCT’s team values—all employees and all of equal importance.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Open and honest—crystal clear, open, mature, &amp; professional conversations.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Challenging &amp; rewarding—courage, results count, investing in our future;</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">Friendly &amp; fun—work hard and have fun; generosity; balance.</strong></li><li><strong style=\"color: rgb(0, 0, 0);\">How I grow matters – personal &amp; professional development, self-direction</strong></li></ul><div><br></div>",
+      "departmentId": 58876,
+      "departmentName": "Sales",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "6-10 Yrs",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-08-07T08:18:14.617Z",
+      "publishedSinceDays": 92
+    }
+  },
+  {
+    "external_id": "71931",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "MEAN Full-Stack developer",
+    "department": "Staffing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-09-30T10:24:18.677Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/71931",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>Role: MEAN Full-stack Developer</div><div>Experience: 3 – 10 years</div><div>Location: Chennai</div><div>Notice Period: Immediate Joiners to Short notice </div><div>&nbsp;</div><div>MEAN full-stack developer builds scalable web applications using MongoDB, Express.js, Angular, and Node.js. They manage both client-side and server-side development, ensuring seamless integration and performance.</div><div>Key Responsibilities</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design and develop responsive front-end interfaces using Angular.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build RESTful APIs with Express.js and Node.js.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage NoSQL databases (MongoDB) for efficient data storage and retrieval.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure cross-platform optimization and mobile responsiveness.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaborate with UI/UX designers and backend engineers.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implement CI/CD pipelines and cloud deployments (AWS/GCP).</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maintain application security and data protection protocols.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write clean, maintainable code and technical documentation.</div><div><br></div><div>Qualifications:</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3+ years of experience in full-stack development.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong proficiency in JavaScript, TypeScript, HTML, and CSS.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with MEAN stack.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Familiarity with Git, Agile methodologies, and DevOps tools.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor’s degree in computer science, Information Systems, or related field.</div><div> </div><div>Preferred Skills:</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience with Docker, Kubernetes, and cloud platforms.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Knowledge of healthcare standards (HL7, FHIR) is a plus.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Knowledge in BI Tools development and Report development is an added advantage.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to analytics tools and AI/ML integration.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Candidates with experience in healthcare HIS development will be preferred</div><div> </div><div>Tech Skills:</div><div> Front-end skills: Angular, React, JavaScript, JQuery</div><div> Back-end skills: Node.js, Spring Boot, Java, Kotlin</div><div> Cloud &amp; DevOps: GCP, AWS, Docker, Kubernetes</div><div> Database: PostgreSQL, MongoDB</div><div> Soft skills: Immediate joiners preferred, strong communication, and adaptability to the healthcare domain.</div><div><br></div>",
+    "raw_payload": {
+      "id": 71931,
+      "title": "MEAN Full-Stack developer",
+      "description": "<div>Role: MEAN Full-stack Developer</div><div>Experience: 3 – 10 years</div><div>Location: Chennai</div><div>Notice Period: Immediate Joiners to Short notice </div><div>&nbsp;</div><div>MEAN full-stack developer builds scalable web applications using MongoDB, Express.js, Angular, and Node.js. They manage both client-side and server-side development, ensuring seamless integration and performance.</div><div>Key Responsibilities</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design and develop responsive front-end interfaces using Angular.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build RESTful APIs with Express.js and Node.js.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage NoSQL databases (MongoDB) for efficient data storage and retrieval.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure cross-platform optimization and mobile responsiveness.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaborate with UI/UX designers and backend engineers.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implement CI/CD pipelines and cloud deployments (AWS/GCP).</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maintain application security and data protection protocols.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write clean, maintainable code and technical documentation.</div><div><br></div><div>Qualifications:</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3+ years of experience in full-stack development.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong proficiency in JavaScript, TypeScript, HTML, and CSS.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with MEAN stack.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Familiarity with Git, Agile methodologies, and DevOps tools.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor’s degree in computer science, Information Systems, or related field.</div><div> </div><div>Preferred Skills:</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience with Docker, Kubernetes, and cloud platforms.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Knowledge of healthcare standards (HL7, FHIR) is a plus.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Knowledge in BI Tools development and Report development is an added advantage.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to analytics tools and AI/ML integration.</div><div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Candidates with experience in healthcare HIS development will be preferred</div><div> </div><div>Tech Skills:</div><div> Front-end skills: Angular, React, JavaScript, JQuery</div><div> Back-end skills: Node.js, Spring Boot, Java, Kotlin</div><div> Cloud &amp; DevOps: GCP, AWS, Docker, Kubernetes</div><div> Database: PostgreSQL, MongoDB</div><div> Soft skills: Immediate joiners preferred, strong communication, and adaptability to the healthcare domain.</div><div><br></div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "3 - 10 years",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-09-30T10:24:18.677Z",
+      "publishedSinceDays": 38
+    }
+  },
+  {
+    "external_id": "71926",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Inside Sales Specialist",
+    "department": "Sales",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-08-07T08:19:45.273Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/71926",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div><br></div><div><br></div><div><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Job Title: Inside sales </strong><strong>Specialist</strong></div><div><br></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Job Description:</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Inside Sales Executive</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Role Overview:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">As the Inside Sales Executive, you will play a crucial role in building a qualified pipeline</span></div><div><span style=\"color: rgb(0, 0, 0);\">across specific verticals and geographic regions. You will:</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Research and identify potential leads using various sources such as the</span></div><div><span style=\"color: rgb(0, 0, 0);\">company’s databases, social media, and online research.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Develop and execute outreach campaigns (calls, emails, Linkedin) to drive</span></div><div><span style=\"color: rgb(0, 0, 0);\">demand for 10decoders service offerings.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Execute impactful cold calling strategies to reach out to potential clients in the</span></div><div><span style=\"color: rgb(0, 0, 0);\">North American market.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Handle communication and calling activities for enterprise-level accounts.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Set appointments and rigorously follow up with prospects to maintain</span></div><div><span style=\"color: rgb(0, 0, 0);\">engagement.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Nurture prospective clients through solution demos, case studies, and thought</span></div><div><span style=\"color: rgb(0, 0, 0);\">leadership material.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Collaborate with the sales team to ensure a smooth handover of qualified leads</span></div><div><span style=\"color: rgb(0, 0, 0);\">for further follow-up and conversion.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Continuously monitor and analyze lead generation performance metrics to</span></div><div><span style=\"color: rgb(0, 0, 0);\">identify areas for improvement and optimize lead generation strategies.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Implement Account-Based Marketing (ABM) approaches for targeted client</span></div><div><span style=\"color: rgb(0, 0, 0);\">engagement.</span></div><div><strong>&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Must-Have Skills &amp; Experience:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;5–8 years of experience in demand generation, business development, or inside</span></div><div><span style=\"color: rgb(0, 0, 0);\">sales.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Strong written and verbal communication skills.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Experience selling Technology Services, GenAI, Cloud, Data, Analytics,</span></div><div><span style=\"color: rgb(0, 0, 0);\">particularly in the US markets. Healthcare and Fintech specific selling experience</span></div><div><span style=\"color: rgb(0, 0, 0);\">is an added advantage.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Strong understanding of IT services and familiarity with LinkedIn for business</span></div><div><span style=\"color: rgb(0, 0, 0);\">development.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Ability to engage C-level, VP-level, and Director-level contacts in Fortune 500</span></div><div><span style=\"color: rgb(0, 0, 0);\">companies.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Experience in designing and executing campaigns within a target account list.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Ability to qualify opportunities and improve closure rates.</span></div><div><br></div><div><br></div>",
+    "raw_payload": {
+      "id": 71926,
+      "title": "Inside Sales Specialist",
+      "description": "<div><br></div><div><br></div><div><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Job Title: Inside sales </strong><strong>Specialist</strong></div><div><br></div><div><br></div><div><strong style=\"color: rgb(0, 0, 0);\">Job Description:</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Inside Sales Executive</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Role Overview:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">As the Inside Sales Executive, you will play a crucial role in building a qualified pipeline</span></div><div><span style=\"color: rgb(0, 0, 0);\">across specific verticals and geographic regions. You will:</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Research and identify potential leads using various sources such as the</span></div><div><span style=\"color: rgb(0, 0, 0);\">company’s databases, social media, and online research.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Develop and execute outreach campaigns (calls, emails, Linkedin) to drive</span></div><div><span style=\"color: rgb(0, 0, 0);\">demand for 10decoders service offerings.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Execute impactful cold calling strategies to reach out to potential clients in the</span></div><div><span style=\"color: rgb(0, 0, 0);\">North American market.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Handle communication and calling activities for enterprise-level accounts.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Set appointments and rigorously follow up with prospects to maintain</span></div><div><span style=\"color: rgb(0, 0, 0);\">engagement.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Nurture prospective clients through solution demos, case studies, and thought</span></div><div><span style=\"color: rgb(0, 0, 0);\">leadership material.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Collaborate with the sales team to ensure a smooth handover of qualified leads</span></div><div><span style=\"color: rgb(0, 0, 0);\">for further follow-up and conversion.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Continuously monitor and analyze lead generation performance metrics to</span></div><div><span style=\"color: rgb(0, 0, 0);\">identify areas for improvement and optimize lead generation strategies.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Implement Account-Based Marketing (ABM) approaches for targeted client</span></div><div><span style=\"color: rgb(0, 0, 0);\">engagement.</span></div><div><strong>&nbsp;</strong></div><div><strong style=\"color: rgb(0, 0, 0);\">Must-Have Skills &amp; Experience:</strong></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;5–8 years of experience in demand generation, business development, or inside</span></div><div><span style=\"color: rgb(0, 0, 0);\">sales.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Strong written and verbal communication skills.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Experience selling Technology Services, GenAI, Cloud, Data, Analytics,</span></div><div><span style=\"color: rgb(0, 0, 0);\">particularly in the US markets. Healthcare and Fintech specific selling experience</span></div><div><span style=\"color: rgb(0, 0, 0);\">is an added advantage.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Strong understanding of IT services and familiarity with LinkedIn for business</span></div><div><span style=\"color: rgb(0, 0, 0);\">development.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Ability to engage C-level, VP-level, and Director-level contacts in Fortune 500</span></div><div><span style=\"color: rgb(0, 0, 0);\">companies.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Experience in designing and executing campaigns within a target account list.</span></div><div><span style=\"color: rgb(0, 0, 0);\">●&nbsp;Ability to qualify opportunities and improve closure rates.</span></div><div><br></div><div><br></div>",
+      "departmentId": 58876,
+      "departmentName": "Sales",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "8-10 Yrs",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-08-07T08:19:45.273Z",
+      "publishedSinceDays": 92
+    }
+  },
+  {
+    "external_id": "71187",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Senior Java Engineer",
+    "department": "Engineering",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-02-20T11:56:39.34Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/71187",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<p>Job Title: Technical Lead - Java 5+ years</p><p>Work Location: Chennai</p><p>Work from Office</p><p><br></p><p>We are seeking an experienced Technical Lead (Java) with 5+ years of hands-on experience in</p><p>designing, developing, and maintaining Java applications. The ideal candidate will have a strong</p><p>background in building scalable, high-performance applications and a passion for staying current with</p><p>emerging trends and technologies. This role will involve leading development projects, mentoring junior</p><p>developers, and collaborating with cross-functional teams to deliver exceptional software solutions.</p><p>Key Responsibilities:</p><p>● System Design and Architecture: Responsible for designing and architecting complex systems</p><p>using Java and related technologies. This includes understanding business requirements,</p><p>conceptualizing system architecture, and ensuring scalability and performance.</p><p>● Technical Leadership: Have to provide technical leadership to the development team, guiding</p><p>and mentoring junior developers, conducting code reviews, and ensuring best practices are</p><p>followed in coding, testing, and deployment processes.</p><p>● Full Stack Development: Involves full-stack development, encompassing front-end</p><p>development using frameworks like Angular or React, back-end development with Java EE or</p><p>Spring Boot, and integration with databases and third-party APIs.</p><p>● Code Development and Optimization: Write clean, efficient, and maintainable code in Java,</p><p>ensuring adherence to coding standards and optimizing code for performance and scalability.</p><p>● Problem Solving and Troubleshooting: Troubleshoot complex technical issues, identify root</p><p>causes, and implement effective solutions to ensure system functionality and reliability.</p><p>● Collaboration and Communication: Effective communication with cross-functional teams</p><p>including product managers, designers, and QA engineers to deliver high-quality software</p><p>solutions.</p><p>● Technical Documentation: Create and maintain technical documentation including system</p><p>architecture diagrams, API specifications, and code documentation to facilitate seamless</p><p>collaboration and knowledge transfer within the team.</p><p>● Continuous Learning and Innovation: Staying updated with the latest trends and technologies in</p><p>Java development is essential, as Senior Java Developers are expected to drive innovation and</p><p>propose enhancements to existing systems or new technological solutions to meet business</p><p>needs.</p><p><br></p><p>Skills Required:</p><p>● Strong proficiency in Java SE and EE.</p><p>● Experience with frameworks like <strong>Spring, Hibernate</strong>, and RESTful APIs.</p><p>● Solid work experience in front-end technologies such as <strong>HTML, CSS, JavaScript</strong>, and</p><p>frameworks like <strong>Angular or React is a must</strong>.</p><p>● Expertise in database design and development, including SQL and NoSQL databases.</p><p>● Strong in unit testing related frameworks such as JUnit, TestNG, or Mockito.</p><p>● Experienced with integration testing frameworks such as Spring Test, Cucumber, or Arquillian.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests, and</p><p>code reviews.</p><p>● Familiarity with cloud platforms (e.g., AWS, Azure) and containerization technologies (e.g.,</p><p>Docker, Kubernetes).</p><p>● Experience with microservices architecture and design patterns.</p><p>● Knowledge of DevOps practices and CI/CD pipelines.</p><p>● Familiarity with version control systems, particularly Git.</p><p>● Understanding of Agile/Scrum methodologies and practices.</p><p>About Us:</p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p><br></p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+    "raw_payload": {
+      "id": 71187,
+      "title": "Senior Java Engineer",
+      "description": "<p>Job Title: Technical Lead - Java 5+ years</p><p>Work Location: Chennai</p><p>Work from Office</p><p><br></p><p>We are seeking an experienced Technical Lead (Java) with 5+ years of hands-on experience in</p><p>designing, developing, and maintaining Java applications. The ideal candidate will have a strong</p><p>background in building scalable, high-performance applications and a passion for staying current with</p><p>emerging trends and technologies. This role will involve leading development projects, mentoring junior</p><p>developers, and collaborating with cross-functional teams to deliver exceptional software solutions.</p><p>Key Responsibilities:</p><p>● System Design and Architecture: Responsible for designing and architecting complex systems</p><p>using Java and related technologies. This includes understanding business requirements,</p><p>conceptualizing system architecture, and ensuring scalability and performance.</p><p>● Technical Leadership: Have to provide technical leadership to the development team, guiding</p><p>and mentoring junior developers, conducting code reviews, and ensuring best practices are</p><p>followed in coding, testing, and deployment processes.</p><p>● Full Stack Development: Involves full-stack development, encompassing front-end</p><p>development using frameworks like Angular or React, back-end development with Java EE or</p><p>Spring Boot, and integration with databases and third-party APIs.</p><p>● Code Development and Optimization: Write clean, efficient, and maintainable code in Java,</p><p>ensuring adherence to coding standards and optimizing code for performance and scalability.</p><p>● Problem Solving and Troubleshooting: Troubleshoot complex technical issues, identify root</p><p>causes, and implement effective solutions to ensure system functionality and reliability.</p><p>● Collaboration and Communication: Effective communication with cross-functional teams</p><p>including product managers, designers, and QA engineers to deliver high-quality software</p><p>solutions.</p><p>● Technical Documentation: Create and maintain technical documentation including system</p><p>architecture diagrams, API specifications, and code documentation to facilitate seamless</p><p>collaboration and knowledge transfer within the team.</p><p>● Continuous Learning and Innovation: Staying updated with the latest trends and technologies in</p><p>Java development is essential, as Senior Java Developers are expected to drive innovation and</p><p>propose enhancements to existing systems or new technological solutions to meet business</p><p>needs.</p><p><br></p><p>Skills Required:</p><p>● Strong proficiency in Java SE and EE.</p><p>● Experience with frameworks like <strong>Spring, Hibernate</strong>, and RESTful APIs.</p><p>● Solid work experience in front-end technologies such as <strong>HTML, CSS, JavaScript</strong>, and</p><p>frameworks like <strong>Angular or React is a must</strong>.</p><p>● Expertise in database design and development, including SQL and NoSQL databases.</p><p>● Strong in unit testing related frameworks such as JUnit, TestNG, or Mockito.</p><p>● Experienced with integration testing frameworks such as Spring Test, Cucumber, or Arquillian.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests, and</p><p>code reviews.</p><p>● Familiarity with cloud platforms (e.g., AWS, Azure) and containerization technologies (e.g.,</p><p>Docker, Kubernetes).</p><p>● Experience with microservices architecture and design patterns.</p><p>● Knowledge of DevOps practices and CI/CD pipelines.</p><p>● Familiarity with version control systems, particularly Git.</p><p>● Understanding of Agile/Scrum methodologies and practices.</p><p>About Us:</p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p><br></p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "5-8years",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-02-20T11:56:39.34Z",
+      "publishedSinceDays": 260
+    }
+  },
+  {
+    "external_id": "70219",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "QA Manual Test Lead",
+    "department": "Staffing",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-10-27T13:47:36.46Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/70219",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<h3><strong style=\"color: rgb(0, 0, 0);\">Job Summary</strong></h3><div>We are seeking an experienced <strong>Test Lead – Manual Testing</strong> with over 10 years of expertise in quality assurance, test planning, and team leadership. The ideal candidate will be responsible for driving end-to-end QA activities, ensuring delivery excellence, and embedding quality practices across multiple projects. This role demands a strong understanding of software testing methodologies, stakeholder collaboration, and mentoring capabilities to uplift the QA function.</div><div style=\"text-align: center;\"><br></div><h3><strong style=\"color: rgb(0, 0, 0);\">Key Responsibilities</strong></h3><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Develop and implement comprehensive test plans and test cases</strong> aligned with project requirements, scope, and acceptance criteria.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Lead QA efforts</strong> across multiple concurrent projects, ensuring all deliverables meet quality standards and timelines.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct a wide range of testing types including <strong>functional, regression, integration, system, usability, and performance testing</strong>. </div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Analyze test results</strong>, identify trends or recurring issues, and prepare detailed <strong>reports and dashboards</strong> for management and stakeholders.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mentor, guide, and review</strong> the work of junior QA engineers, fostering professional growth and adherence to testing best practices.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaborate closely with <strong>developers, product managers, business analysts, and project leads</strong> to ensure quality is integrated throughout the SDLC.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participate in <strong>requirement, design, and code reviews</strong> to offer QA insights and proactively identify risks.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage and <strong>prioritize testing activities</strong> across multiple sprints or projects in a dynamic, fast-paced environment.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure all QA activities are performed in line with <strong>defined processes, standards, and compliance frameworks</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drive and facilitate <strong>defect triage meetings</strong>, root cause analysis, and continuous process improvements.</div><div style=\"text-align: center;\"> </div><h3><strong style=\"color: rgb(0, 0, 0);\">Required Skills &amp; Qualifications</strong></h3><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor’s degree in Computer Science, Information Technology, or a related field.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>10+ years of professional experience</strong> in software testing, with at least <strong>above 5 years in a lead or senior QA role</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong knowledge of <strong>SDLC</strong>, <strong>STLC</strong>, <strong>defect life cycle</strong>, and <strong>test strategy development</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expertise in <strong>test management</strong> and <strong>defect tracking tools</strong> such as <strong>JIRA, Zephyr, TestRail, Azure DevOps, or HP ALM</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in <strong>test estimation, planning, and reporting metrics</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solid understanding of <strong>SQL</strong> for data validation and backend verification.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Working knowledge of <strong>API testing</strong> using tools like <strong>Postman</strong> or similar.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to <strong>Agile/Scrum methodologies</strong> and experience collaborating in cross-functional teams.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excellent <strong>analytical, problem-solving, and communication skills</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proven ability to <strong>lead and motivate QA teams</strong>, manage priorities, and deliver quality outcomes under tight deadlines.</div><div>&nbsp;</div><div><br></div>",
+    "raw_payload": {
+      "id": 70219,
+      "title": "QA Manual Test Lead",
+      "description": "<h3><strong style=\"color: rgb(0, 0, 0);\">Job Summary</strong></h3><div>We are seeking an experienced <strong>Test Lead – Manual Testing</strong> with over 10 years of expertise in quality assurance, test planning, and team leadership. The ideal candidate will be responsible for driving end-to-end QA activities, ensuring delivery excellence, and embedding quality practices across multiple projects. This role demands a strong understanding of software testing methodologies, stakeholder collaboration, and mentoring capabilities to uplift the QA function.</div><div style=\"text-align: center;\"><br></div><h3><strong style=\"color: rgb(0, 0, 0);\">Key Responsibilities</strong></h3><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Develop and implement comprehensive test plans and test cases</strong> aligned with project requirements, scope, and acceptance criteria.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Lead QA efforts</strong> across multiple concurrent projects, ensuring all deliverables meet quality standards and timelines.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct a wide range of testing types including <strong>functional, regression, integration, system, usability, and performance testing</strong>. </div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Analyze test results</strong>, identify trends or recurring issues, and prepare detailed <strong>reports and dashboards</strong> for management and stakeholders.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mentor, guide, and review</strong> the work of junior QA engineers, fostering professional growth and adherence to testing best practices.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaborate closely with <strong>developers, product managers, business analysts, and project leads</strong> to ensure quality is integrated throughout the SDLC.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participate in <strong>requirement, design, and code reviews</strong> to offer QA insights and proactively identify risks.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage and <strong>prioritize testing activities</strong> across multiple sprints or projects in a dynamic, fast-paced environment.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure all QA activities are performed in line with <strong>defined processes, standards, and compliance frameworks</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drive and facilitate <strong>defect triage meetings</strong>, root cause analysis, and continuous process improvements.</div><div style=\"text-align: center;\"> </div><h3><strong style=\"color: rgb(0, 0, 0);\">Required Skills &amp; Qualifications</strong></h3><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor’s degree in Computer Science, Information Technology, or a related field.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>10+ years of professional experience</strong> in software testing, with at least <strong>above 5 years in a lead or senior QA role</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong knowledge of <strong>SDLC</strong>, <strong>STLC</strong>, <strong>defect life cycle</strong>, and <strong>test strategy development</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expertise in <strong>test management</strong> and <strong>defect tracking tools</strong> such as <strong>JIRA, Zephyr, TestRail, Azure DevOps, or HP ALM</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in <strong>test estimation, planning, and reporting metrics</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solid understanding of <strong>SQL</strong> for data validation and backend verification.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Working knowledge of <strong>API testing</strong> using tools like <strong>Postman</strong> or similar.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to <strong>Agile/Scrum methodologies</strong> and experience collaborating in cross-functional teams.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excellent <strong>analytical, problem-solving, and communication skills</strong>.</div><div>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proven ability to <strong>lead and motivate QA teams</strong>, manage priorities, and deliver quality outcomes under tight deadlines.</div><div>&nbsp;</div><div><br></div>",
+      "departmentId": 88500,
+      "departmentName": "Staffing",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "10+",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-10-27T13:47:36.46Z",
+      "publishedSinceDays": 11
+    }
+  },
+  {
+    "external_id": "67944",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Java Backend Developer",
+    "department": "Engineering",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-10-17T05:48:55.45Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/67944",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<p>JD: Java Backend Developer </p><p>Experience: 10+ years </p><p>Position summary: Weare searching for a highly experienced, talented and motivated Staff Software Engineer to join our growing Guest Experience Solutions development team. The ideal candidate will have over 10 years of experience in Java-based software development (backend) and more than 3 years as lead developer with exposure to UI technologies. In this role, you will play a key role in designing, building, and maintaining the product, following SDLC process, guiding &amp; leading team of developers and delivering high-quality releases following scrum methodologies. You will work closely with product managers, developers, QA analysts and other engineers to ensure product/feature meets the needs of the business. </p><p>What you will do: </p><p>● Design, develop, and implement scalable SAAS applications using Java- J2SE, JAX JAX-WS, JPA and other Java application stack tools.</p><p> ● Drive product development from concept to launch, delivering high-quality software solutions. </p><p>● Ensure the scalability, performance, and reliability of the product by implementing and managing Agile methodologies. ● Leadandmentor teams of developers and QA automation engineers, fostering a collaborative and productive work environment.</p><p> ● Design and manage new &amp; existing database schema. Write and execute SQL queries to expose the data to the downstream components via APIs. </p><p>● Develop and maintain Java based application which include Tomcat based Web applications, Spring-boot applications</p><p> ● Design and implement REST APIs for other downstream components. </p><p>● Collaborate with front-end developers to ensure seamless integration of UI components. </p><p>● Monitor, maintain and drive best coding practices to ensure code quality. </p><p>● Participate in code reviews, testing, and debugging to ensure the code quality. </p><p>● Participate in the entire Agile development lifecycle, including sprint planning, stand-ups, and retrospectives What you bring to the table: Essentials </p><p>● Experience in designing, developing, and implementing Java/J2SE applications/products. </p><p>● Proficiency in SQL and experience with relational databases (e.g., MySQL, Spannel). </p><p>● Strong programming skills in Java and strong knowledge in technologies like JAX-WS, JPA, Web Services, Rest API design. </p><p>● Extensive knowledge of modern technologies, best practices and agile methodologies. </p><p>● Ability to work independently and as part of a team. </p><p>● Strong knowledge of cloud computing platforms, such as AWS, Azure, or Google Cloud. </p><p>● Strong knowledge of Application scalability and performance, strong knowledge of horizontal and vertical scaling and use this knowledge to build scalable applications. </p><p>● Stayup-to-date with the latest industry trends and technologies to continuously improve the development process </p><p>Nice To Have </p><p>● Experience with Google Cloud, BigQuery, CloudSQL, gGRPC, Kubernetes </p><p>● Experience with modern Web application design with knowledge of how website/ &amp; web applications work, Example: HTTP, HTML, Javascript, CSS, AJAX et</p>",
+    "raw_payload": {
+      "id": 67944,
+      "title": "Java Backend Developer",
+      "description": "<p>JD: Java Backend Developer </p><p>Experience: 10+ years </p><p>Position summary: Weare searching for a highly experienced, talented and motivated Staff Software Engineer to join our growing Guest Experience Solutions development team. The ideal candidate will have over 10 years of experience in Java-based software development (backend) and more than 3 years as lead developer with exposure to UI technologies. In this role, you will play a key role in designing, building, and maintaining the product, following SDLC process, guiding &amp; leading team of developers and delivering high-quality releases following scrum methodologies. You will work closely with product managers, developers, QA analysts and other engineers to ensure product/feature meets the needs of the business. </p><p>What you will do: </p><p>● Design, develop, and implement scalable SAAS applications using Java- J2SE, JAX JAX-WS, JPA and other Java application stack tools.</p><p> ● Drive product development from concept to launch, delivering high-quality software solutions. </p><p>● Ensure the scalability, performance, and reliability of the product by implementing and managing Agile methodologies. ● Leadandmentor teams of developers and QA automation engineers, fostering a collaborative and productive work environment.</p><p> ● Design and manage new &amp; existing database schema. Write and execute SQL queries to expose the data to the downstream components via APIs. </p><p>● Develop and maintain Java based application which include Tomcat based Web applications, Spring-boot applications</p><p> ● Design and implement REST APIs for other downstream components. </p><p>● Collaborate with front-end developers to ensure seamless integration of UI components. </p><p>● Monitor, maintain and drive best coding practices to ensure code quality. </p><p>● Participate in code reviews, testing, and debugging to ensure the code quality. </p><p>● Participate in the entire Agile development lifecycle, including sprint planning, stand-ups, and retrospectives What you bring to the table: Essentials </p><p>● Experience in designing, developing, and implementing Java/J2SE applications/products. </p><p>● Proficiency in SQL and experience with relational databases (e.g., MySQL, Spannel). </p><p>● Strong programming skills in Java and strong knowledge in technologies like JAX-WS, JPA, Web Services, Rest API design. </p><p>● Extensive knowledge of modern technologies, best practices and agile methodologies. </p><p>● Ability to work independently and as part of a team. </p><p>● Strong knowledge of cloud computing platforms, such as AWS, Azure, or Google Cloud. </p><p>● Strong knowledge of Application scalability and performance, strong knowledge of horizontal and vertical scaling and use this knowledge to build scalable applications. </p><p>● Stayup-to-date with the latest industry trends and technologies to continuously improve the development process </p><p>Nice To Have </p><p>● Experience with Google Cloud, BigQuery, CloudSQL, gGRPC, Kubernetes </p><p>● Experience with modern Web application design with knowledge of how website/ &amp; web applications work, Example: HTTP, HTML, Javascript, CSS, AJAX et</p>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        },
+        {
+          "id": 17628,
+          "name": "Madurai",
+          "city": "Madurai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "10+",
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2025-10-17T05:48:55.45Z",
+      "publishedSinceDays": 21
+    }
+  },
+  {
+    "external_id": "64735",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Women Empowerment Program",
+    "department": "Engineering",
+    "location_text": "Chennai, Tamil Nadu, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2024-07-30T09:23:02.85Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/64735",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<p><strong>Rediscover your career with our opportunities ! </strong></p><p><br></p><p>Are you a talented, experienced professional who took a break from your career? Whether it was for family, education, or personal reasons, we understand that life sometimes takes you in different directions. Now, we're inviting you to reignite your professional journey and bring your unique skills and perspectives back into the workforce.</p><p><br></p><p>At 10decoders, we believe in the value of diverse experiences and the strength that comes from a varied career path. We're looking for women who are ready to return to work and make an impact. Here's why you should consider restarting your career with us:</p><p><br></p><ul><li>Work from Home option</li><li>Flexible working hours</li><li>Mentoring by our Leaders</li><li>Supportive Environment</li></ul><p><br></p><p>If you're ready to take the next step in your career journey, we want to hear from you! Apply today and discover how you can make a meaningful impact. </p><p><br></p><p>Your career break is a part of your story, and we're excited to help you write the next chapter.</p><p><br></p><p><strong>Your next opportunity is waiting!</strong></p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build digital engineering solutions. Our business is driven by the success of delivery and the trust we build with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily focuses on customers in the Healthcare and Financial services domain.</p><p><br></p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and support critical business applications and systems in data canters and public/private clouds. </p><p><br></p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p><br></p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 0);\">https://10decoders.com/</a></p>",
+    "raw_payload": {
+      "id": 64735,
+      "title": "Women Empowerment Program",
+      "description": "<p><strong>Rediscover your career with our opportunities ! </strong></p><p><br></p><p>Are you a talented, experienced professional who took a break from your career? Whether it was for family, education, or personal reasons, we understand that life sometimes takes you in different directions. Now, we're inviting you to reignite your professional journey and bring your unique skills and perspectives back into the workforce.</p><p><br></p><p>At 10decoders, we believe in the value of diverse experiences and the strength that comes from a varied career path. We're looking for women who are ready to return to work and make an impact. Here's why you should consider restarting your career with us:</p><p><br></p><ul><li>Work from Home option</li><li>Flexible working hours</li><li>Mentoring by our Leaders</li><li>Supportive Environment</li></ul><p><br></p><p>If you're ready to take the next step in your career journey, we want to hear from you! Apply today and discover how you can make a meaningful impact. </p><p><br></p><p>Your career break is a part of your story, and we're excited to help you write the next chapter.</p><p><br></p><p><strong>Your next opportunity is waiting!</strong></p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build digital engineering solutions. Our business is driven by the success of delivery and the trust we build with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily focuses on customers in the Healthcare and Financial services domain.</p><p><br></p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and support critical business applications and systems in data canters and public/private clouds. </p><p><br></p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p><br></p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 0);\">https://10decoders.com/</a></p>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [
+        {
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "countryCode": "IN",
+          "countryName": "India"
+        },
+        {
+          "city": "Madurai",
+          "state": "Tamil Nadu",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2024-07-30T09:23:02.85Z",
+      "publishedSinceDays": 465
+    }
+  },
+  {
+    "external_id": "62958",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Technical Lead – Dotnet",
+    "department": "Engineering",
+    "location_text": null,
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2024-11-18T10:17:01.71Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/62958",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<p><strong><em>Job Title: Technical Lead – Dotnet</em></strong></p><p><br></p><p>We are seeking a highly skilled and experienced Technical Lead (.NET) to join our dynamic team. The</p><p>ideal candidate will have over 8 years of experience in designing, developing, and maintaining .NET</p><p>applications. This role requires a deep understanding of the .NET framework, along with strong</p><p>problem-solving skills and the ability to lead and mentor a team of developers.</p><p><br></p><p><strong>Key Responsibilities:</strong></p><p><br></p><p>● <strong>Design, develop, and maintain .NET applications</strong>: Architect, code, and deploy complex</p><p>applications using the .NET framework, ensuring high performance, quality, and</p><p>responsiveness.</p><p>● <strong>Technical Leadership</strong>: Provide technical guidance and mentorship to junior and mid-level</p><p>developers, promoting best practices and ensuring high standards in code quality.</p><p>● Collaborate with cross-functional teams: Work closely with product managers, designers,</p><p>and other stakeholders to gather requirements and translate them into technical</p><p>specifications.</p><p>● <strong>Code Review and Quality Assurance</strong>: Conduct code reviews, unit testing, and integration</p><p>testing to ensure the application meets the specified requirements and standards.</p><p>● <strong>System Integration</strong>: Integrate third-party APIs and services, ensuring seamless</p><p>interoperability with existing systems.</p><p>● <strong>Performance Optimization</strong>: Identify and resolve performance bottlenecks and other</p><p>technical issues, ensuring optimal performance of applications.</p><p>● <strong>Documentation</strong>: Maintain comprehensive documentation of the codebase, including</p><p>architectural diagrams, technical specifications, and user manuals.</p><p>● <strong>Stay Updated with Industry Trends</strong>: Keep abreast of the latest developments in the .NET</p><p>ecosystem and related technologies, and incorporate these advancements into the</p><p>development process.</p><p>● <strong>Agile Methodologies</strong>: Participate in agile ceremonies such as sprint planning, daily stand-</p><p>ups, and retrospectives, contributing to continuous improvement within the team.</p><p><br></p><p><strong>Skills Required:</strong></p><p>● Strong proficiency in .NET framework, including C#, ASP.NET MVC, and .NET Core.</p><p>● Experience with popular .NET frameworks and libraries such as Entity Framework, ASP.NET</p><p>Web API, and SignalR.</p><p>● Solid understanding of front-end technologies such as HTML5, CSS3, and JavaScript/jQuery.</p><p>● Familiarity with front-end frameworks like Angular, React, or Vue.js is a plus.</p><p>● Expertise in database design and development using SQL Server, MySQL, or Oracle.</p><p>● Strong in unit testing related frameworks such as xUnit, NUnit, or MSTest.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests,</p><p>and code reviews.</p><p>● Knowledge of NoSQL databases such as MongoDB or Redis is advantageous.</p><p>● Experience with cloud platforms such as Azure or AWS, including services like Azure</p><p>Functions, AWS Lambda, and cloud storage solutions.</p><p>● Familiarity with containerization technologies like Docker and orchestration platforms like</p><p>Kubernetes.</p><p>● Proficiency in microservices architecture and design patterns, including service discovery, API</p><p>gateways, and distributed systems.</p><p>● Understanding of DevOps practices, including CI/CD pipelines, automated testing, and</p><p>deployment automation.</p><p>● Experience with version control systems, particularly Git, and collaboration tools like GitHub</p><p>or GitLab.</p><p>● Familiarity with Agile/Scrum methodologies and practices, including sprint planning, backlog</p><p>grooming, and daily stand-ups.</p><p>● Strong problem-solving skills, ability to troubleshoot complex technical issues, and excellent</p><p>communication skills for collaboration with cross-functional teams.</p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+    "raw_payload": {
+      "id": 62958,
+      "title": "Technical Lead – Dotnet",
+      "description": "<p><strong><em>Job Title: Technical Lead – Dotnet</em></strong></p><p><br></p><p>We are seeking a highly skilled and experienced Technical Lead (.NET) to join our dynamic team. The</p><p>ideal candidate will have over 8 years of experience in designing, developing, and maintaining .NET</p><p>applications. This role requires a deep understanding of the .NET framework, along with strong</p><p>problem-solving skills and the ability to lead and mentor a team of developers.</p><p><br></p><p><strong>Key Responsibilities:</strong></p><p><br></p><p>● <strong>Design, develop, and maintain .NET applications</strong>: Architect, code, and deploy complex</p><p>applications using the .NET framework, ensuring high performance, quality, and</p><p>responsiveness.</p><p>● <strong>Technical Leadership</strong>: Provide technical guidance and mentorship to junior and mid-level</p><p>developers, promoting best practices and ensuring high standards in code quality.</p><p>● Collaborate with cross-functional teams: Work closely with product managers, designers,</p><p>and other stakeholders to gather requirements and translate them into technical</p><p>specifications.</p><p>● <strong>Code Review and Quality Assurance</strong>: Conduct code reviews, unit testing, and integration</p><p>testing to ensure the application meets the specified requirements and standards.</p><p>● <strong>System Integration</strong>: Integrate third-party APIs and services, ensuring seamless</p><p>interoperability with existing systems.</p><p>● <strong>Performance Optimization</strong>: Identify and resolve performance bottlenecks and other</p><p>technical issues, ensuring optimal performance of applications.</p><p>● <strong>Documentation</strong>: Maintain comprehensive documentation of the codebase, including</p><p>architectural diagrams, technical specifications, and user manuals.</p><p>● <strong>Stay Updated with Industry Trends</strong>: Keep abreast of the latest developments in the .NET</p><p>ecosystem and related technologies, and incorporate these advancements into the</p><p>development process.</p><p>● <strong>Agile Methodologies</strong>: Participate in agile ceremonies such as sprint planning, daily stand-</p><p>ups, and retrospectives, contributing to continuous improvement within the team.</p><p><br></p><p><strong>Skills Required:</strong></p><p>● Strong proficiency in .NET framework, including C#, ASP.NET MVC, and .NET Core.</p><p>● Experience with popular .NET frameworks and libraries such as Entity Framework, ASP.NET</p><p>Web API, and SignalR.</p><p>● Solid understanding of front-end technologies such as HTML5, CSS3, and JavaScript/jQuery.</p><p>● Familiarity with front-end frameworks like Angular, React, or Vue.js is a plus.</p><p>● Expertise in database design and development using SQL Server, MySQL, or Oracle.</p><p>● Strong in unit testing related frameworks such as xUnit, NUnit, or MSTest.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests,</p><p>and code reviews.</p><p>● Knowledge of NoSQL databases such as MongoDB or Redis is advantageous.</p><p>● Experience with cloud platforms such as Azure or AWS, including services like Azure</p><p>Functions, AWS Lambda, and cloud storage solutions.</p><p>● Familiarity with containerization technologies like Docker and orchestration platforms like</p><p>Kubernetes.</p><p>● Proficiency in microservices architecture and design patterns, including service discovery, API</p><p>gateways, and distributed systems.</p><p>● Understanding of DevOps practices, including CI/CD pipelines, automated testing, and</p><p>deployment automation.</p><p>● Experience with version control systems, particularly Git, and collaboration tools like GitHub</p><p>or GitLab.</p><p>● Familiarity with Agile/Scrum methodologies and practices, including sprint planning, backlog</p><p>grooming, and daily stand-ups.</p><p>● Strong problem-solving skills, ability to troubleshoot complex technical issues, and excellent</p><p>communication skills for collaboration with cross-functional teams.</p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [],
+      "jobType": 2,
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2024-11-18T10:17:01.71Z",
+      "publishedSinceDays": 354
+    }
+  },
+  {
+    "external_id": "62957",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Technical Lead - Java",
+    "department": "Engineering",
+    "location_text": null,
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2024-11-18T10:17:53.353Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/62957",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<p><strong>Job Title: <em>Technical Lead - Java</em></strong></p><p><br></p><p>We are seeking an experienced Technical Lead (Java) with 8+ years of hands-on experience in</p><p>designing, developing, and maintaining Java applications. The ideal candidate will have a strong</p><p>background in building scalable, high-performance applications and a passion for staying current</p><p>with emerging trends and technologies. This role will involve leading development projects,</p><p>mentoring junior developers, and collaborating with cross-functional teams to deliver exceptional</p><p>software solutions.</p><p><br></p><p><strong>Key Responsibilities:</strong></p><p><br></p><p>● <strong>System Design and Architecture</strong>: Responsible for designing and architecting complex</p><p>systems using Java and related technologies. This includes understanding business</p><p>requirements, conceptualizing system architecture, and ensuring scalability and performance.</p><p>● <strong>Technical Leadership</strong>: Have to provide technical leadership to the development team,</p><p>guiding and mentoring junior developers, conducting code reviews, and ensuring best</p><p>practices are followed in coding, testing, and deployment processes.</p><p>● <strong>Full Stack Development:</strong> Involves full-stack development, encompassing front-end</p><p>development using frameworks like Angular or React, back-end development with Java EE or</p><p>Spring Boot, and integration with databases and third-party APIs.</p><p>● <strong>Code Development and Optimization:</strong> Write clean, efficient, and maintainable code in Java,</p><p>ensuring adherence to coding standards and optimizing code for performance and</p><p>scalability.</p><p>● <strong>Problem Solving and Troubleshooting</strong>: Troubleshoot complex technical issues, identify</p><p>root causes, and implement effective solutions to ensure system functionality and reliability.</p><p>● Collaboration and Communication: Effective communication with cross-functional teams</p><p>including product managers, designers, and QA engineers to deliver high-quality software</p><p>solutions.</p><p>● <strong>Technical Documentation</strong>: Create and maintain technical documentation including system</p><p>architecture diagrams, API specifications, and code documentation to facilitate seamless</p><p>collaboration and knowledge transfer within the team.</p><p>● <strong>Continuous Learning and Innovation</strong>: Staying updated with the latest trends and</p><p>technologies in Java development is essential, as Senior Java Developers are expected to</p><p>drive innovation and propose enhancements to existing systems or new technological</p><p>solutions to meet business needs.</p><p><br></p><p><strong>Skills Required</strong>:</p><p><br></p><p>● Strong proficiency in Java SE and EE.</p><p>● Experience with frameworks like Spring, Hibernate, and RESTful APIs.</p><p>● Solid understanding of front-end technologies such as HTML, CSS, JavaScript, and</p><p>frameworks like Angular or React is a plus.</p><p>● Expertise in database design and development, including SQL and NoSQL databases.</p><p>● Strong in unit testing related frameworks such as JUnit, TestNG, or Mockito.</p><p>● Experienced with integration testing frameworks such as Spring Test, Cucumber, or</p><p>Arquillian.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests,</p><p>and code reviews.</p><p>● Familiarity with cloud platforms (e.g., AWS, Azure) and containerization technologies (e.g.,</p><p>Docker, Kubernetes).</p><p>● Experience with microservices architecture and design patterns.</p><p>● Knowledge of DevOps practices and CI/CD pipelines.</p><p>● Familiarity with version control systems, particularly Git.</p><p>● Understanding of Agile/Scrum methodologies and practices.</p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+    "raw_payload": {
+      "id": 62957,
+      "title": "Technical Lead - Java",
+      "description": "<p><strong>Job Title: <em>Technical Lead - Java</em></strong></p><p><br></p><p>We are seeking an experienced Technical Lead (Java) with 8+ years of hands-on experience in</p><p>designing, developing, and maintaining Java applications. The ideal candidate will have a strong</p><p>background in building scalable, high-performance applications and a passion for staying current</p><p>with emerging trends and technologies. This role will involve leading development projects,</p><p>mentoring junior developers, and collaborating with cross-functional teams to deliver exceptional</p><p>software solutions.</p><p><br></p><p><strong>Key Responsibilities:</strong></p><p><br></p><p>● <strong>System Design and Architecture</strong>: Responsible for designing and architecting complex</p><p>systems using Java and related technologies. This includes understanding business</p><p>requirements, conceptualizing system architecture, and ensuring scalability and performance.</p><p>● <strong>Technical Leadership</strong>: Have to provide technical leadership to the development team,</p><p>guiding and mentoring junior developers, conducting code reviews, and ensuring best</p><p>practices are followed in coding, testing, and deployment processes.</p><p>● <strong>Full Stack Development:</strong> Involves full-stack development, encompassing front-end</p><p>development using frameworks like Angular or React, back-end development with Java EE or</p><p>Spring Boot, and integration with databases and third-party APIs.</p><p>● <strong>Code Development and Optimization:</strong> Write clean, efficient, and maintainable code in Java,</p><p>ensuring adherence to coding standards and optimizing code for performance and</p><p>scalability.</p><p>● <strong>Problem Solving and Troubleshooting</strong>: Troubleshoot complex technical issues, identify</p><p>root causes, and implement effective solutions to ensure system functionality and reliability.</p><p>● Collaboration and Communication: Effective communication with cross-functional teams</p><p>including product managers, designers, and QA engineers to deliver high-quality software</p><p>solutions.</p><p>● <strong>Technical Documentation</strong>: Create and maintain technical documentation including system</p><p>architecture diagrams, API specifications, and code documentation to facilitate seamless</p><p>collaboration and knowledge transfer within the team.</p><p>● <strong>Continuous Learning and Innovation</strong>: Staying updated with the latest trends and</p><p>technologies in Java development is essential, as Senior Java Developers are expected to</p><p>drive innovation and propose enhancements to existing systems or new technological</p><p>solutions to meet business needs.</p><p><br></p><p><strong>Skills Required</strong>:</p><p><br></p><p>● Strong proficiency in Java SE and EE.</p><p>● Experience with frameworks like Spring, Hibernate, and RESTful APIs.</p><p>● Solid understanding of front-end technologies such as HTML, CSS, JavaScript, and</p><p>frameworks like Angular or React is a plus.</p><p>● Expertise in database design and development, including SQL and NoSQL databases.</p><p>● Strong in unit testing related frameworks such as JUnit, TestNG, or Mockito.</p><p>● Experienced with integration testing frameworks such as Spring Test, Cucumber, or</p><p>Arquillian.</p><p>● Proficient in using SonarQube for code quality and coverage analysis.</p><p>● Familiar with Git code commit best practices, including branching strategies, pull requests,</p><p>and code reviews.</p><p>● Familiarity with cloud platforms (e.g., AWS, Azure) and containerization technologies (e.g.,</p><p>Docker, Kubernetes).</p><p>● Experience with microservices architecture and design patterns.</p><p>● Knowledge of DevOps practices and CI/CD pipelines.</p><p>● Familiarity with version control systems, particularly Git.</p><p>● Understanding of Agile/Scrum methodologies and practices.</p><p><br></p><p><strong>About Us:</strong></p><p>10decoders is a leading IT services company with a proven track record of helping customers build</p><p>digital engineering solutions. Our business is driven by the success of delivery and the trust we build</p><p>with our customers. Our experience is demonstrable and can be referenced. 10decoders primarily</p><p>focuses on customers in the Healthcare and Financial services domain.</p><p>10decoders has a deep expertise in Enterprise Application Development &amp; Engineering, Cloud</p><p>Engineering, Data and Analytics. 10decoders brings strategic and technical expertise to build and</p><p>support critical business applications and systems in data centres and public/private clouds.</p><p>Our customers are based across the Americas, UK &amp; Europe, Middle East and Asia-Pacific.</p><p>For more details visit <a href=\"https://10decoders.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://10decoders.com/</a></p>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [],
+      "jobType": 2,
+      "salaryRange": {
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "",
+      "publishedOn": "2024-11-18T10:17:53.353Z",
+      "publishedSinceDays": 354
+    }
+  },
+  {
+    "external_id": "12939",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "Java Developer",
+    "department": "Engineering",
+    "location_text": "Chennai, TN, India",
+    "remote_type": null,
+    "employment_type": "Full-time",
+    "posted_at": "2025-10-17T06:13:06.687Z",
+    "updated_at_source": null,
+    "apply_url": "https://10decoders.keka.com/careers/jobdetails/12939",
+    "source_url": "https://10decoders.keka.com/careers/",
+    "description_html": "<div>Role: Java Full-stack Developer</div><div>Experience: 4 - 6 years</div><div>Location: Chennai</div><div><br></div><div>Job Description&nbsp;</div><div>● 4-6&nbsp;years in developing web applications using Java 8/11.&nbsp;</div><div>● Strong experience in - Spring MVC, Spring boot and Spring Batch.&nbsp;</div><div>● Knowledge of Maven, Wildfly, Weblogic will be added advantage.&nbsp;</div><div>● Strong experience with Oracle or SQL Server.&nbsp;</div><div>● Experience with Angular or React technologies will be an added advantage.&nbsp;</div><div>● Good understanding of Agile process.&nbsp;</div><div>● Excellent oral and written communication skills in English.&nbsp;</div><div>Preferred Skills&nbsp;</div><div>● Expertised in Java 8, Spring Boot, APIs, Hibernate, JPA, and Microservices.&nbsp;</div><div>● Good understanding of Collections and Design Patterns.&nbsp;</div><div>● Basic knowledge of React/ angular or any Front end FullStack technology (&nbsp;</div><div>Knowledge in HTML, CSS is sufficient)&nbsp;</div><div>● The interview process will consist of two rounds, with the client round focusing on Spring Boot API–based programming questions.&nbsp;&nbsp;</div>",
+    "raw_payload": {
+      "id": 12939,
+      "title": "Java Developer",
+      "description": "<div>Role: Java Full-stack Developer</div><div>Experience: 4 - 6 years</div><div>Location: Chennai</div><div><br></div><div>Job Description&nbsp;</div><div>● 4-6&nbsp;years in developing web applications using Java 8/11.&nbsp;</div><div>● Strong experience in - Spring MVC, Spring boot and Spring Batch.&nbsp;</div><div>● Knowledge of Maven, Wildfly, Weblogic will be added advantage.&nbsp;</div><div>● Strong experience with Oracle or SQL Server.&nbsp;</div><div>● Experience with Angular or React technologies will be an added advantage.&nbsp;</div><div>● Good understanding of Agile process.&nbsp;</div><div>● Excellent oral and written communication skills in English.&nbsp;</div><div>Preferred Skills&nbsp;</div><div>● Expertised in Java 8, Spring Boot, APIs, Hibernate, JPA, and Microservices.&nbsp;</div><div>● Good understanding of Collections and Design Patterns.&nbsp;</div><div>● Basic knowledge of React/ angular or any Front end FullStack technology (&nbsp;</div><div>Knowledge in HTML, CSS is sufficient)&nbsp;</div><div>● The interview process will consist of two rounds, with the client round focusing on Spring Boot API–based programming questions.&nbsp;&nbsp;</div>",
+      "departmentId": 36765,
+      "departmentName": "Engineering",
+      "jobLocations": [
+        {
+          "id": 3201,
+          "name": "Chennai",
+          "city": "Chennai",
+          "state": "TN",
+          "countryCode": "IN",
+          "countryName": "India"
+        }
+      ],
+      "jobType": 2,
+      "experience": "4 - 6",
+      "salaryRange": {
+        "minimum": 5.0,
+        "maximum": 10.0,
+        "currency": "INR",
+        "salaryPeriod": 0,
+        "cultureInfo": "en-IN"
+      },
+      "salaryRangeFormat": "INR 5.00 - 10.00",
+      "publishedOn": "2025-10-17T06:13:06.687Z",
+      "publishedSinceDays": 21
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "external_id": "15080473-partner-manager-sf-ny-ldn",
+    "ats_type": "join",
+    "company_name": "Qdrant",
+    "title": "Partner Manager (SF/NY/LDN)",
+    "department": "Directors, Chief Executives",
+    "location_text": "Remote (United States)",
+    "remote_type": "remote",
+    "employment_type": "Employee",
+    "posted_at": null,
+    "updated_at_source": null,
+    "apply_url": "https://join.com/companies/qdrant/15080473-partner-manager-sf-ny-ldn",
+    "source_url": "https://join.com/companies/qdrant",
+    "description_html": null,
+    "raw_payload": {
+      "title": "Partner Manager (SF/NY/LDN)\nRemote (United States)\nEmployee\nDirectors, Chief Executives",
+      "applyUrl": "https://join.com/companies/qdrant/15080473-partner-manager-sf-ny-ldn"
+    }
+  },
+  {
+    "external_id": "15035821-senior-customer-support-engineer-emea-based-candidates-only",
+    "ats_type": "join",
+    "company_name": "Qdrant",
+    "title": "Senior Customer Support Engineer (EMEA-Based Candidates Only)",
+    "department": "Other",
+    "location_text": "Remote",
+    "remote_type": "remote",
+    "employment_type": "Employee",
+    "posted_at": null,
+    "updated_at_source": null,
+    "apply_url": "https://join.com/companies/qdrant/15035821-senior-customer-support-engineer-emea-based-candidates-only",
+    "source_url": "https://join.com/companies/qdrant",
+    "description_html": null,
+    "raw_payload": {
+      "title": "Senior Customer Support Engineer (EMEA-Based Candidates Only)\nRemote\nEmployee\nOther",
+      "applyUrl": "https://join.com/companies/qdrant/15035821-senior-customer-support-engineer-emea-based-candidates-only"
+    }
+  },
+  {
+    "external_id": "15030190-senior-growth-marketing-manager",
+    "ats_type": "join",
+    "company_name": "Qdrant",
+    "title": "Senior Growth Marketing Manager",
+    "department": "Marketing Manager",
+    "location_text": "Remote (United States)",
+    "remote_type": "remote",
+    "employment_type": "Employee",
+    "posted_at": null,
+    "updated_at_source": null,
+    "apply_url": "https://join.com/companies/qdrant/15030190-senior-growth-marketing-manager",
+    "source_url": "https://join.com/companies/qdrant",
+    "description_html": null,
+    "raw_payload": {
+      "title": "Senior Growth Marketing Manager\nRemote (United States)\nEmployee\nMarketing Manager",
+      "applyUrl": "https://join.com/companies/qdrant/15030190-senior-growth-marketing-manager"
+    }
+  },
+  {
+    "external_id": "15099361-senior-software-engineer-platform-and-reliability",
+    "ats_type": "join",
+    "company_name": "Qdrant",
+    "title": "Senior Software Engineer - Platform and Reliability",
+    "department": "Software Development",
+    "location_text": "Remote",
+    "remote_type": "remote",
+    "employment_type": "Employee",
+    "posted_at": null,
+    "updated_at_source": null,
+    "apply_url": "https://join.com/companies/qdrant/15099361-senior-software-engineer-platform-and-reliability",
+    "source_url": "https://join.com/companies/qdrant",
+    "description_html": null,
+    "raw_payload": {
+      "title": "Senior Software Engineer - Platform and Reliability\nRemote\nEmployee\nSoftware Development",
+      "applyUrl": "https://join.com/companies/qdrant/15099361-senior-software-engineer-platform-and-reliability"
+    }
+  }
+]

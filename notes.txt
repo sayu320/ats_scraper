@@ -1,0 +1,749 @@
+Excellent question 👏 — this is one of the most important (and sometimes confusing) parts of scraper projects like yours.
+
+Let’s break it down simply 👇
+
+---
+
+## 🧩 What “normalizing to a field catalog” means
+
+Every ATS (Join.com, KekaHR, DarwinBox, Oracle ORC) **uses different field names and formats** for job data.
+
+Example — for the same job:
+
+| ATS        | Field for Title | Field for Location                       | Field for Department | Field for URL                             |
+| ---------- | --------------- | ---------------------------------------- | -------------------- | ----------------------------------------- |
+| Join.com   | `name`          | `office.name`                            | `department.name`    | `links.public`                            |
+| KekaHR     | `title`         | `jobLocations[0].name`                   | `departmentName`     | `/careers/jobdetails/<id>`                |
+| DarwinBox  | `title`         | `officelocation_show_arr`                | `department`         | `/ms/candidate/careers#/job/<id>`         |
+| Oracle ORC | `Title`         | `PrimaryLocation` + `secondaryLocations` | `Department`         | `/hcmUI/CandidateExperience/.../job/<id>` |
+
+If you stored these “as is,” every source would have different JSON keys and data formats — a mess to analyze later.
+
+---
+
+## ✅ Normalization means:
+
+You **convert** (or “map”) all those different fields into a **standard schema** (the “field catalog”).
+
+So no matter where the job came from, it fits one **consistent format** like:
+
+```json
+{
+  "external_id": "107339",
+  "ats_type": "kekahr",
+  "company_name": "10Decoders",
+  "title": "Senior Staff Backend Engineer",
+  "department": "Staffing",
+  "location_text": "Chennai, TN, India",
+  "remote_type": null,
+  "employment_type": "Full-time",
+  "posted_at": "2025-10-27T14:20:04Z",
+  "updated_at_source": null,
+  "apply_url": "https://10decoders.keka.com/careers/jobdetails/107339",
+  "source_url": "https://10decoders.keka.com/careers/",
+  "description_html": "<div>...</div>",
+  "raw_payload": { ... original JSON ... }
+}
+```
+
+This **field catalog** acts like your “universal schema” — so every adapter maps data into it.
+It’s what allows you to:
+
+* Store all jobs in one table (or JSON),
+* Detect “new,” “updated,” and “closed” jobs easily, and
+* Run analytics across ATS platforms without worrying about different formats.
+
+---
+
+## 💡 In your project
+
+You already achieved this by writing **mapper functions**:
+
+* `map_join_dom_job()`
+* `map_kekahr_job()`
+* `map_darwinbox_job()`
+* `map_oracle_orc_job()`
+
+Each takes the ATS’s raw JSON and returns a normalized object in the **same structure** — that’s your normalization step ✅
+
+---
+
+**********************
+
+
+
+Excellent follow-up 🔍 — this goes right to the heart of how **Join.com** works technically.
+
+Here’s the full reasoning 👇
+
+---
+
+## 🧱 1️⃣ Background — how Join.com loads jobs
+
+Unlike systems such as **KekaHR**, **DarwinBox**, or **Oracle ORC**, which expose **clear JSON APIs**,
+👉 **Join.com does NOT have a public API endpoint** for job listings.
+
+When you open a Join.com company page like:
+
+```
+https://join.com/companies/qdrant
+```
+
+you’ll notice that:
+
+* No `XHR` or `fetch` requests return a `jobs` JSON.
+* The jobs are already visible **in the HTML** when the page loads.
+* The data is **rendered server-side**, not fetched via JavaScript.
+
+So — there’s nothing like:
+
+```
+https://join.com/api/jobs?page=1
+```
+
+for us to call.
+That’s why **API-based scraping doesn’t work here**.
+
+---
+
+## 🧩 2️⃣ Solution — DOM-based scraping
+
+Since the data appears **directly in the webpage HTML**,
+we switched to **DOM scraping** — that means:
+
+* Load the careers page using **Playwright** (a headless browser).
+* Extract job titles, locations, departments, and URLs by **querying the DOM** (`page.locator("selector")`).
+* Store those as JSON objects.
+
+Essentially, we’re **parsing the HTML structure** instead of consuming an API.
+
+That’s why our Join.com adapter uses:
+
+```python
+from playwright.sync_api import sync_playwright
+```
+
+and finds jobs with selectors like:
+
+```python
+"section a[href*='/companies/']"
+```
+
+---
+
+## ⚙️ 3️⃣ Why this is the right approach
+
+✅ **Works for Join.com** — since it renders jobs in HTML directly.
+✅ **No authentication needed** — data is public.
+✅ **Stable output** — DOM structure doesn’t change often.
+❌ **No pagination via API** — but DOM scroll handling can be added if needed.
+
+---
+
+## 🧠 In short
+
+| Reason                    | Explanation                      |
+| ------------------------- | -------------------------------- |
+| No public JSON API        | Jobs are server-rendered         |
+| Data visible in page HTML | So we use DOM scraping           |
+| Playwright used           | Automates page load + extraction |
+| Works for all companies   | e.g., Qdrant, Onomondo, etc.     |
+
+---
+
+Would you like me to show you a small snippet of **how we extract jobs from the Join.com HTML** (the DOM parsing logic inside the adapter)? It’ll make this even clearer.
+
+
+
+*************************
+
+
+Perfect 👍 — here’s a **concise but complete summary** of everything you’ve done so far in your **ATS Job Scraper project**, mapped to the document’s phases and deliverables.
+
+---
+
+## 🧩 **Overall Goal**
+
+Build a modular, Python-based system that can **collect and normalize job listings** from multiple **ATS (Applicant Tracking System)** platforms — specifically:
+
+* **Join.com**
+* **KekaHR**
+* **DarwinBox**
+* **Oracle ORC (Cloud)**
+
+and document how each system works internally (API discovery, pagination, response structure, etc.).
+
+---
+
+## ⚙️ **Phase 1–2: Core Development**
+
+### ✅ 1. Reverse Engineering (Research Phase)
+
+You analyzed how each ATS loads jobs:
+
+* Used **Chrome DevTools → Network tab → XHR/Fetch** to find API requests.
+* Captured endpoints, query parameters, and JSON response formats.
+* Confirmed authentication and pagination mechanisms.
+
+| ATS            | Endpoint Pattern                                               | Auth | Pagination          | Notes                 |
+| -------------- | -------------------------------------------------------------- | ---- | ------------------- | --------------------- |
+| **Join.com**   | `https://join.com/companies/<tenant>/jobs`                     | No   | HTML Scrape         | Rendered DOM scraping |
+| **KekaHR**     | `/careers/api/embedjobs/default/active/<GUID>`                 | No   | ❌                   | JSON API, one array   |
+| **DarwinBox**  | `/ms/candidateapi/job?page=<n>&limit=<x>`                      | No   | ✅ `page`, `limit`   | Public API, paginated |
+| **Oracle ORC** | `/hcmRestApi/resources/latest/recruitingCEJobRequisitions?...` | No   | ✅ `offset`, `limit` | Complex REST API      |
+
+---
+
+### ✅ 2. Built Adapters (Scraper Layer)
+
+For each ATS, you created an **adapter module** inside `/adapters/` that:
+
+* Fetches raw job data from its API (or DOM for Join.com)
+* Normalizes fields into a **common format**:
+
+  ```json
+  {
+    "external_id": "...",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "...",
+    "department": "...",
+    "location_text": "...",
+    "employment_type": "...",
+    "posted_at": "...",
+    "apply_url": "...",
+    "source_url": "...",
+    "description_html": "...",
+    "raw_payload": {...}
+  }
+  ```
+* Handles errors (403s, empty results) gracefully.
+
+Adapters completed:
+
+* `join_com.py`
+* `kekahr.py`
+* `darwinbox.py`
+* `oracle_orc.py`
+
+---
+
+### ✅ 3. Integration (main.py)
+
+You integrated all four adapters into a single **driver script** (`main.py`) that:
+
+* Calls each adapter’s fetch and map functions.
+* Detects job changes using `utils/delta.py`:
+
+  * 🆕 **New jobs**
+  * 🔁 **Updated jobs**
+  * ❌ **Closed jobs**
+* Saves outputs to JSON files:
+
+  * `/data/state_<ats>.json`
+  * `/data/output_<ats>.json`
+* Prints a clear **run summary**:
+
+  ```
+  [KEKAHR] Fetched 19 jobs. Endpoint: <...>
+  New: 2 | Updated: 1 | Closed: 0
+  ```
+
+---
+
+## 📊 **Phase 3: Delivery Prep**
+
+### ✅ 4. Verified Outputs
+
+All four systems now fetch jobs successfully:
+
+* **Join.com →** Qdrant (4 jobs)
+* **KekaHR →** 10Decoders (19 jobs)
+* **DarwinBox →** ADA Global (83 jobs)
+* **Oracle ORC →** Euroclear (150 jobs)
+
+Each adapter returns structured job data with accurate:
+
+* `title`, `department`, `location`, `posted_at`, and `apply_url`
+* Proper **delta detection** between runs
+
+---
+
+### ✅ 5. Documentation (Short Summaries)
+
+You wrote brief, professional docs for each ATS including:
+
+* Endpoint pattern
+* Response fields
+* Pagination behavior
+* Example usage
+  These are ready to include in the **final “Research Documentation”** section.
+
+---
+
+## 🚀 **Next Step (Optional Phase 3 Bonus)**
+
+To meet *“Delivery Phase”* expectations:
+
+> “Code in Python (FastAPI/Django preferred) and store in PostgreSQL or MongoDB.”
+
+You’ll now:
+
+1. Wrap this logic into a **FastAPI microservice** (`main_api.py`).
+2. Store job data and run summaries in **PostgreSQL** (via SQLAlchemy ORM).
+3. Provide **API routes**:
+
+   * `/fetch` → run a scraper
+   * `/jobs` → list jobs
+   * `/runs` → see run history
+4. Optionally, use **Docker Compose** for portability.
+
+---
+
+## 📦 **Deliverables Covered So Far**
+
+| Deliverable                   | Status                              | Output               |
+| ----------------------------- | ----------------------------------- | -------------------- |
+| Modular scraper (4 ATS)       | ✅                                   | `adapters/`          |
+| Reverse-engineering docs      | ✅                                   | Written summaries    |
+| Normalized job JSON output    | ✅                                   | `data/output_*.json` |
+| Change detection (new/closed) | ✅                                   | `utils/delta.py`     |
+| Run summaries/logs            | ✅                                   | Console + JSON       |
+| API + Database storage        | 🚧 Next step (FastAPI + PostgreSQL) |                      |
+
+---
+
+Would you like me to now generate the **FastAPI + PostgreSQL setup** (so you can meet the “Phase 3” delivery requirement fully)?
+I can make it lightweight and reuse all your current code — no rewriting needed.
+
+
+Join.com Reverse Engineering Summary
+
+Platform pattern:
+
+Company career pages follow the format:
+https://join.com/companies/<company-slug>
+
+Example used:
+
+Qdrant — https://join.com/companies/qdrant
+
+Findings:
+
+No public API endpoints found for this tenant.
+
+No network requests in the browser (XHR/Fetch) delivering job listings.
+
+No embedded __NEXT_DATA__ JSON structure (typical for Next.js apps).
+
+Jobs are rendered server-side, meaning the listings are part of the HTML response.
+
+Approach used:
+
+Parsed job cards directly from the DOM using Playwright + BeautifulSoup.
+
+Extracted job title, department, and apply URL successfully.
+
+Built a generic Join.com adapter (adapters/join_com.py) that:
+
+Attempts known endpoints (if present),
+
+Falls back to DOM scraping when API is unavailable.
+
+
+🧩 KekaHR Adapter
+Purpose: Fetch and normalize job data from keka.com career portals.
+🔍 API Discovery
+
+
+Endpoint Pattern:
+https://<tenant>.keka.com/careers/api/embedjobs/default/active/<GUID>
+(Example: https://10decoders.keka.com/careers/api/embedjobs/default/active/8a08095f-29fa-4856-ac19-f693dcf00ad1)
+
+
+Found via DevTools → Network → filter for embedjobs.
+
+
+Public JSON endpoint, no authentication needed.
+
+
+Returns all active jobs in one array (no pagination).
+
+
+📦 Response Structure
+Each job object contains:
+
+
+id, title, description, departmentName
+
+
+jobLocations → { city, state, countryName }
+
+
+jobType → 1=Internship, 2=Full-time, ...
+
+
+publishedOn (ISO timestamp)
+
+
+Canonical job URL:
+https://<tenant>.keka.com/careers/jobdetails/<id>
+⚙️ Normalization
+FieldSourceexternal_ididtitletitledepartmentdepartmentNamelocation_textFrom jobLocations[0]employment_typeFrom jobTypeposted_atpublishedOnapply_url/careers/jobdetails/<id>description_htmldescription
+🧠 Usage
+run_kekahr(
+  "10Decoders",
+  "https://10decoders.keka.com/careers/",
+  endpoint_override="https://10decoders.keka.com/careers/api/embedjobs/default/active/8a08095f-29fa-4856-ac19-f693dcf00ad1"
+)
+
+✅ Summary
+
+
+API reverse-engineered and verified
+
+
+Response structure documented
+
+
+Pagination not required
+
+
+Adapter fully implemented and tested
+
+
+🌐 Join.com Adapter
+Purpose: Extract job listings from company pages hosted on Join.com.
+🔍 Platform Overview
+
+
+Join.com hosts career pages for many companies at:
+https://join.com/companies/<company-slug>
+
+
+Example target: https://join.com/companies/qdrant
+
+
+Some tenants expose JSON data via Next.js APIs, but others (like Qdrant) are fully client-rendered, meaning there’s no public API endpoint.
+
+
+🧠 Approach
+Since no JSON/XHR endpoint was found for Qdrant:
+
+
+The adapter loads the company’s careers page.
+
+
+Extracts job cards directly from the DOM:
+
+
+Job title
+
+
+Apply URL (/companies/<slug>/<job-slug>)
+
+
+Optional location or category if available.
+
+
+
+
+If present, it also parses <script type="application/ld+json"> blocks for structured job data.
+
+
+⚙️ Normalization
+FieldSourceexternal_idMD5 of title + apply URLats_type"join"company_nameFrom inputtitleJob title textapply_urlFull Join.com job linklocation_textFrom card or JSON-LDdescription_htmlNone (page-level scraping only)source_urlCareers page URL
+💡 Notes
+
+
+No pagination or API key needed.
+
+
+For API-enabled tenants, future improvements can sniff /api/jobs or /_next/data responses.
+
+
+Currently relies on DOM scraping for reliability across all tenants.
+
+
+✅ Summary
+
+
+Join.com uses tenant pages under /companies/<slug>
+
+
+No consistent API → DOM-based scraping implemented
+
+
+Fields: title, apply URL, location
+
+
+Fully tested and compatible with Qdrant’s public careers page
+
+
+
+🧩 Darwinbox Adapter
+Purpose: Fetch and normalize job data from Darwinbox-powered career portals.
+🔍 API Discovery
+Endpoint pattern (list API):
+https://<tenant>.darwinbox.com/ms/candidateapi/job?page=<n>&limit=<m>
+
+
+Found via DevTools → Network (filter candidateapi/job).
+
+
+Usually public, but some tenants block unauth’d requests (may return 403 unless proper headers/origin).
+
+
+Supports pagination via page (1-based) and limit.
+
+
+📦 Response Structure (list)
+Top-level:
+
+
+status ("success"), message.jobscount (total), message.jobs (array)
+
+
+Each job in message.jobs includes commonly:
+
+
+id (string)
+
+
+title
+
+
+department, department_id
+
+
+emp_type (e.g., “Full Time”)
+
+
+officelocation_show_arr (display string)
+
+
+tool_tip_locations (array of strings)
+
+
+created_on (ISO time), job_posting_on (epoch)
+
+
+experience_from_num, experience_to_num
+
+
+timezone
+
+
+
+Fields vary slightly by tenant; treat missing fields as optional.
+
+🔁 Pagination
+
+
+Use page and limit (e.g., page=1&limit=50).
+
+
+Keep incrementing page until:
+
+
+len(jobs) < limit, or
+
+
+Accumulated count ≥ jobscount.
+
+
+
+
+🔗 Canonical Job URL
+https://<tenant>.darwinbox.com/ms/candidate/careers#/job/<id>
+⚙️ Normalization (mapping)
+Normalized fieldSource field(s)external_ididtitletitledepartmentdepartmentlocation_textofficelocation_show_arr || first of tool_tip_locationsemployment_typeemp_typeposted_atcreated_on (prefer) || convert job_posting_on epochapply_urlcanonical job URL (above)description_html(not in list API; optional second fetch if needed)source_urlcareers landing URL
+🧠 Usage (example)
+run_darwinbox(
+    company_name="ADA",
+    careers_url="https://adaglobal.darwinbox.com/ms/candidate/careers",
+    tenant="adaglobal",          # <tenant> in the URL
+    page_size=50,                # limit
+    extra_headers={              # optional: may help avoid 403
+        "Referer": "https://adaglobal.darwinbox.com",
+        "Origin": "https://adaglobal.darwinbox.com",
+        "User-Agent": "Mozilla/5.0 ..."
+    }
+)
+
+✅ Summary
+
+
+API reverse-engineered & paginated via page/limit.
+
+
+Core fields (id/title/department/location/type/dates) extracted from list payload.
+
+
+Adapter implemented to loop pages until all jobs are fetched and normalized.
+
+
+
+
+
+
+
+
+
+Perfect 👍 — here’s a **concise but complete summary** of everything you’ve done so far in your **ATS Job Scraper project**, mapped to the document’s phases and deliverables.
+
+---
+
+## 🧩 **Overall Goal**
+
+Build a modular, Python-based system that can **collect and normalize job listings** from multiple **ATS (Applicant Tracking System)** platforms — specifically:
+
+* **Join.com**
+* **KekaHR**
+* **DarwinBox**
+* **Oracle ORC (Cloud)**
+
+and document how each system works internally (API discovery, pagination, response structure, etc.).
+
+---
+
+## ⚙️ **Phase 1–2: Core Development**
+
+### ✅ 1. Reverse Engineering (Research Phase)
+
+You analyzed how each ATS loads jobs:
+
+* Used **Chrome DevTools → Network tab → XHR/Fetch** to find API requests.
+* Captured endpoints, query parameters, and JSON response formats.
+* Confirmed authentication and pagination mechanisms.
+
+| ATS            | Endpoint Pattern                                               | Auth | Pagination          | Notes                 |
+| -------------- | -------------------------------------------------------------- | ---- | ------------------- | --------------------- |
+| **Join.com**   | `https://join.com/companies/<tenant>/jobs`                     | No   | HTML Scrape         | Rendered DOM scraping |
+| **KekaHR**     | `/careers/api/embedjobs/default/active/<GUID>`                 | No   | ❌                   | JSON API, one array   |
+| **DarwinBox**  | `/ms/candidateapi/job?page=<n>&limit=<x>`                      | No   | ✅ `page`, `limit`   | Public API, paginated |
+| **Oracle ORC** | `/hcmRestApi/resources/latest/recruitingCEJobRequisitions?...` | No   | ✅ `offset`, `limit` | Complex REST API      |
+
+---
+
+### ✅ 2. Built Adapters (Scraper Layer)
+
+For each ATS, you created an **adapter module** inside `/adapters/` that:
+
+* Fetches raw job data from its API (or DOM for Join.com)
+* Normalizes fields into a **common format**:
+
+  ```json
+  {
+    "external_id": "...",
+    "ats_type": "kekahr",
+    "company_name": "10Decoders",
+    "title": "...",
+    "department": "...",
+    "location_text": "...",
+    "employment_type": "...",
+    "posted_at": "...",
+    "apply_url": "...",
+    "source_url": "...",
+    "description_html": "...",
+    "raw_payload": {...}
+  }
+  ```
+* Handles errors (403s, empty results) gracefully.
+
+Adapters completed:
+
+* `join_com.py`
+* `kekahr.py`
+* `darwinbox.py`
+* `oracle_orc.py`
+
+---
+
+### ✅ 3. Integration (main.py)
+
+You integrated all four adapters into a single **driver script** (`main.py`) that:
+
+* Calls each adapter’s fetch and map functions.
+* Detects job changes using `utils/delta.py`:
+
+  * 🆕 **New jobs**
+  * 🔁 **Updated jobs**
+  * ❌ **Closed jobs**
+* Saves outputs to JSON files:
+
+  * `/data/state_<ats>.json`
+  * `/data/output_<ats>.json`
+* Prints a clear **run summary**:
+
+  ```
+  [KEKAHR] Fetched 19 jobs. Endpoint: <...>
+  New: 2 | Updated: 1 | Closed: 0
+  ```
+
+---
+
+## 📊 **Phase 3: Delivery Prep**
+
+### ✅ 4. Verified Outputs
+
+All four systems now fetch jobs successfully:
+
+* **Join.com →** Qdrant (4 jobs)
+* **KekaHR →** 10Decoders (19 jobs)
+* **DarwinBox →** ADA Global (83 jobs)
+* **Oracle ORC →** Euroclear (150 jobs)
+
+Each adapter returns structured job data with accurate:
+
+* `title`, `department`, `location`, `posted_at`, and `apply_url`
+* Proper **delta detection** between runs
+
+---
+
+### ✅ 5. Documentation (Short Summaries)
+
+You wrote brief, professional docs for each ATS including:
+
+* Endpoint pattern
+* Response fields
+* Pagination behavior
+* Example usage
+  These are ready to include in the **final “Research Documentation”** section.
+
+---
+
+## 🚀 **Next Step (Optional Phase 3 Bonus)**
+
+To meet *“Delivery Phase”* expectations:
+
+> “Code in Python (FastAPI/Django preferred) and store in PostgreSQL or MongoDB.”
+
+You’ll now:
+
+1. Wrap this logic into a **FastAPI microservice** (`main_api.py`).
+2. Store job data and run summaries in **PostgreSQL** (via SQLAlchemy ORM).
+3. Provide **API routes**:
+
+   * `/fetch` → run a scraper
+   * `/jobs` → list jobs
+   * `/runs` → see run history
+4. Optionally, use **Docker Compose** for portability.
+
+---
+
+## 📦 **Deliverables Covered So Far**
+
+| Deliverable                   | Status                              | Output               |
+| ----------------------------- | ----------------------------------- | -------------------- |
+| Modular scraper (4 ATS)       | ✅                                   | `adapters/`          |
+| Reverse-engineering docs      | ✅                                   | Written summaries    |
+| Normalized job JSON output    | ✅                                   | `data/output_*.json` |
+| Change detection (new/closed) | ✅                                   | `utils/delta.py`     |
+| Run summaries/logs            | ✅                                   | Console + JSON       |
+| API + Database storage        | 🚧 Next step (FastAPI + PostgreSQL) |                      |
+
+---
+
+Would you like me to now generate the **FastAPI + PostgreSQL setup** (so you can meet the “Phase 3” delivery requirement fully)?
+I can make it lightweight and reuse all your current code — no rewriting needed.

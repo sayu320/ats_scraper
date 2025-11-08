@@ -1,0 +1,5 @@
+{
+  "endpoint": "https://adaglobal.darwinbox.com/ms/candidateapi/job?page={page}&limit={limit}",
+  "jobs": [],
+  "note": "api"
+}
